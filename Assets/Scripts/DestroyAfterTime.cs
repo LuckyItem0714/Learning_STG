@@ -1,13 +1,13 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class DestroyAfterTime : MonoBehaviour
 {
-    public float lifetime = 0.5f; //0.5•bŒã‚ÉÁ‚¦‚é
+    public float lifetime = 0.5f; //0.5ç§’å¾Œã«æ¶ˆãˆã‚‹
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //lifetime•bŒã‚ÉA‚±‚ÌƒIƒuƒWƒFƒNƒg‚ğ”j‰ó‚·‚é
+        //lifetimeç§’å¾Œã«ã€ã“ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç ´å£Šã™ã‚‹
         Destroy(gameObject, lifetime);
     }
 

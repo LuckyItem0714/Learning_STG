@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 
 public class EnemySpawnerController : MonoBehaviour
@@ -9,23 +9,23 @@ public class EnemySpawnerController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //ƒQ[ƒ€‚ªn‚Ü‚Á‚½‚çA“G‚ğ¶¬‚·‚éƒ‹[ƒ`ƒ“‚ğŠJn‚·‚é
+        //ã‚²ãƒ¼ãƒ ãŒå§‹ã¾ã£ãŸã‚‰ã€æ•µã‚’ç”Ÿæˆã™ã‚‹ãƒ«ãƒ¼ãƒãƒ³ã‚’é–‹å§‹ã™ã‚‹
         StartCoroutine(SpawnEnemyRoutine());
     }
 
     IEnumerator SpawnEnemyRoutine()
     {
-        while (true) //‚±‚ê‚Å–³ŒÀ‚É“G‚ğ¶¬‚µ‘±‚¯‚é
+        while (true) //ã“ã‚Œã§ç„¡é™ã«æ•µã‚’ç”Ÿæˆã—ç¶šã‘ã‚‹
         {
-            //‰æ–Êã•”‚ÌA¶‰Eƒ‰ƒ“ƒ_ƒ€‚ÈˆÊ’u‚ğŒvZ
+            //ç”»é¢ä¸Šéƒ¨ã®ã€å·¦å³ãƒ©ãƒ³ãƒ€ãƒ ãªä½ç½®ã‚’è¨ˆç®—
             float randomX = Random.Range(-spawnAreaWidth / 2, spawnAreaWidth / 2);
             Vector3 localSpawnPosition = new Vector3(randomX, 4f, 0);
             Vector3 worldSpawnPosition = transform.position + localSpawnPosition;
 
-            //“G‚ğ¶¬
+            //æ•µã‚’ç”Ÿæˆ
             Instantiate(enemyPrefab, worldSpawnPosition, Quaternion.identity);
 
-            //w’è‚µ‚½•b”‚¾‚¯Aˆ—‚ğˆê’â~‚·‚é
+            //æŒ‡å®šã—ãŸç§’æ•°ã ã‘ã€å‡¦ç†ã‚’ä¸€æ™‚åœæ­¢ã™ã‚‹
             yield return new WaitForSeconds(spawnInterval);
         }
     }

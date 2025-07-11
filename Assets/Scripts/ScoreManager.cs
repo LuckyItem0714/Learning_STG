@@ -1,16 +1,16 @@
-using UnityEngine;
-using TMPro; //TextMeshPro‚ğˆµ‚¤‚½‚ß‚É•K—v
+ï»¿using UnityEngine;
+using TMPro; //TextMeshProã‚’æ‰±ã†ãŸã‚ã«å¿…è¦
 
 public class ScoreManager : MonoBehaviour
 {
-    public static ScoreManager instance; //‘¼ƒXƒNƒŠƒvƒg‚©‚çƒAƒNƒZƒX‚·‚é‚½‚ß‚ÌQÆ
-    public TextMeshProUGUI scoreText; //ƒXƒRƒA‚ğ•\¦‚·‚éUIƒeƒLƒXƒg—v‘f
+    public static ScoreManager instance; //ä»–ã‚¹ã‚¯ãƒªãƒ—ãƒˆã‹ã‚‰ã‚¢ã‚¯ã‚»ã‚¹ã™ã‚‹ãŸã‚ã®å‚ç…§
+    public TextMeshProUGUI scoreText; //ã‚¹ã‚³ã‚¢ã‚’è¡¨ç¤ºã™ã‚‹UIãƒ†ã‚­ã‚¹ãƒˆè¦ç´ 
 
     private int score = 0;
 
     private void Awake()
     {
-        //ƒCƒ“ƒXƒ^ƒ“ƒX‚ÌQÆ‚ğİ’è‚·‚é
+        //ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã®å‚ç…§ã‚’è¨­å®šã™ã‚‹
         if (instance == null)
         {
             instance = this;
@@ -23,7 +23,7 @@ public class ScoreManager : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //ƒXƒRƒA•\¦‚ğ‰Šú‰»‚·‚é
+        //ã‚¹ã‚³ã‚¢è¡¨ç¤ºã‚’åˆæœŸåŒ–ã™ã‚‹
         scoreText.text = "Score : " + score.ToString();
     }
 

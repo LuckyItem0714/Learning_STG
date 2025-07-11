@@ -1,103 +1,103 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float normalSpeed = 5f; //’ÊíƒXƒs[ƒh
-    public float slowSpeed = 2.5f; //’á‘¬ƒXƒs[ƒh
-    public float moveSmoothing = 0.1f; //ˆÚ“®‚ÌŠŠ‚ç‚©‚³(¬‚³‚¢‚Ù‚Ç‹@•qA‘å‚«‚¢‚Ù‚ÇŠŠ‚é)
-    private Vector3 currentVelocity; //Œ»İ‚ÌˆÚ“®‘¬“x‚Æ•ûŒü‚ğ•Û‚·‚é•Ï”
+    public float normalSpeed = 5f; //é€šå¸¸ã‚¹ãƒ”ãƒ¼ãƒ‰
+    public float slowSpeed = 2.5f; //ä½é€Ÿã‚¹ãƒ”ãƒ¼ãƒ‰
+    public float moveSmoothing = 0.1f; //ç§»å‹•ã®æ»‘ã‚‰ã‹ã•(å°ã•ã„ã»ã©æ©Ÿæ•ã€å¤§ãã„ã»ã©æ»‘ã‚‹)
+    private Vector3 currentVelocity; //ç¾åœ¨ã®ç§»å‹•é€Ÿåº¦ã¨æ–¹å‘ã‚’ä¿æŒã™ã‚‹å¤‰æ•°
 
-    public int maxHp = 3; //Å‘åHP
-    private int currentHp; //Œ»İ‚ÌHP
+    public int maxHp = 3; //æœ€å¤§HP
+    private int currentHp; //ç¾åœ¨ã®HP
     public HpUiManager hpUiManager;
 
-    [Header("ËŒ‚İ’è")] //ƒCƒ“ƒXƒyƒNƒ^[‚ÉŒ©o‚µ‚ğ’Ç‰Á
-    public GameObject bulletPrefab; //’e‚ÌƒvƒŒƒnƒu‚ğŠi”[‚·‚é•Ï”
-    public float fireRate = 0.25f; //’e‚Ì”­ËŠÔŠu(0.25•b‚É1”­)
-    public int normalShotDamage = 2; //’Êí’e‚Ìƒ_ƒ[ƒW
-    public int homingShotDamage = 1; //ƒz[ƒ~ƒ“ƒO’e‚Ìƒ_ƒ[ƒW
-    private float nextFireTime = 0f; //Ÿ‚É’e‚ğ”­Ë‚Å‚«‚éŠÔ
+    [Header("å°„æ’ƒè¨­å®š")] //ã‚¤ãƒ³ã‚¹ãƒšã‚¯ã‚¿ãƒ¼ã«è¦‹å‡ºã—ã‚’è¿½åŠ 
+    public GameObject bulletPrefab; //å¼¾ã®ãƒ—ãƒ¬ãƒãƒ–ã‚’æ ¼ç´ã™ã‚‹å¤‰æ•°
+    public float fireRate = 0.25f; //å¼¾ã®ç™ºå°„é–“éš”(0.25ç§’ã«1ç™º)
+    public int normalShotDamage = 2; //é€šå¸¸å¼¾ã®ãƒ€ãƒ¡ãƒ¼ã‚¸
+    public int homingShotDamage = 1; //ãƒ›ãƒ¼ãƒŸãƒ³ã‚°å¼¾ã®ãƒ€ãƒ¡ãƒ¼ã‚¸
+    private float nextFireTime = 0f; //æ¬¡ã«å¼¾ã‚’ç™ºå°„ã§ãã‚‹æ™‚é–“
 
-    [Header("ƒ{ƒ€İ’è")]
-    public GameObject bombBulletPrefab; //ƒ{ƒ€‚Ì’eƒvƒŒƒnƒu
-    public int bombBulletCount = 10; //¶¬‚·‚éƒ{ƒ€‚Ì’e‚Ì”
+    [Header("ãƒœãƒ è¨­å®š")]
+    public GameObject bombBulletPrefab; //ãƒœãƒ ã®å¼¾ãƒ—ãƒ¬ãƒãƒ–
+    public int bombBulletCount = 10; //ç”Ÿæˆã™ã‚‹ãƒœãƒ ã®å¼¾ã®æ•°
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //ƒQ[ƒ€ŠJn‚ÉHP‚ğÅ‘å‚É‚·‚é
+        //ã‚²ãƒ¼ãƒ é–‹å§‹æ™‚ã«HPã‚’æœ€å¤§ã«ã™ã‚‹
         currentHp = maxHp;
-        Debug.Log("ƒvƒŒƒCƒ„[‚ÌHP : " + currentHp);
+        Debug.Log("ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®HP : " + currentHp);
         hpUiManager.UpdateHp(currentHp);
 
-        //‰ŠúˆÊ’u•ÏX
+        //åˆæœŸä½ç½®å¤‰æ›´
         transform.position = new Vector3(0, -3.5f, 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Œ»İ‚ÌƒtƒŒ[ƒ€‚Å“K—p‚·‚éƒXƒs[ƒh‚ğŒˆ’è‚·‚é
+        //ç¾åœ¨ã®ãƒ•ãƒ¬ãƒ¼ãƒ ã§é©ç”¨ã™ã‚‹ã‚¹ãƒ”ãƒ¼ãƒ‰ã‚’æ±ºå®šã™ã‚‹
         float targetSpeed = Input.GetKey(KeyCode.LeftShift) ? slowSpeed : normalSpeed;
 
-        //ƒvƒŒƒCƒ„[‚ÌˆÚ“®
+        //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ç§»å‹•
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         Vector3 targetVelocity = new Vector3(x, y, 0) * targetSpeed;
 
-        //Œ»İ‚Ì‘¬“x(currentVelocity)‚ğA–Ú•W‚Ì‘¬“x(targetVelocity)‚ÉŠŠ‚ç‚©‚É‹ß‚Ã‚¯‚é
+        //ç¾åœ¨ã®é€Ÿåº¦(currentVelocity)ã‚’ã€ç›®æ¨™ã®é€Ÿåº¦(targetVelocity)ã«æ»‘ã‚‰ã‹ã«è¿‘ã¥ã‘ã‚‹
         currentVelocity = Vector3.Lerp(currentVelocity, targetVelocity, 1 - Mathf.Pow(moveSmoothing, Time.deltaTime));
 
         Vector3 newPosition = transform.localPosition + currentVelocity * Time.deltaTime;
 
-        //À•W‚ğ§ŒÀ
+        //åº§æ¨™ã‚’åˆ¶é™
         newPosition.x = Mathf.Clamp(newPosition.x, -4.45f, 4.45f);
         newPosition.y = Mathf.Clamp(newPosition.y, -5f, 5f);
 
         transform.localPosition = newPosition;
 
-        //’e‚ğŒ‚‚Âˆ—
+        //å¼¾ã‚’æ’ƒã¤å‡¦ç†
         if (Input.GetKey(KeyCode.Z) && Time.time > nextFireTime)
         {
-            //Ÿ‚É”­Ë‰Â”\‚ÈŠÔ‚ğAŒ»İ‚ÌŠÔ‚É”­ËŠÔŠu‚ğ‰Á‚¦‚½‚à‚Ì‚ÉXV
+            //æ¬¡ã«ç™ºå°„å¯èƒ½ãªæ™‚é–“ã‚’ã€ç¾åœ¨ã®æ™‚é–“ã«ç™ºå°„é–“éš”ã‚’åŠ ãˆãŸã‚‚ã®ã«æ›´æ–°
             nextFireTime = Time.time + fireRate;
 
-            //ShiftƒL[‚ª‰Ÿ‚³‚ê‚Ä‚¢‚é‚©‚ÅËŒ‚ƒ‚[ƒh‚ğØ‚è‘Ö‚¦
+            //Shiftã‚­ãƒ¼ãŒæŠ¼ã•ã‚Œã¦ã„ã‚‹ã‹ã§å°„æ’ƒãƒ¢ãƒ¼ãƒ‰ã‚’åˆ‡ã‚Šæ›¿ãˆ
             if(Input.GetKey(KeyCode.LeftShift))
             {
-                //ƒz[ƒ~ƒ“ƒO’e‚ğ”­Ë
+                //ãƒ›ãƒ¼ãƒŸãƒ³ã‚°å¼¾ã‚’ç™ºå°„
                 FireHomingBullet();
             }
             else
             {
-                //’Êí’e‚ğ”­Ë
+                //é€šå¸¸å¼¾ã‚’ç™ºå°„
                 FireNormalBullet();
             }
         }
 
-        //ƒ{ƒ€‚Ì”­“®ˆ—
+        //ãƒœãƒ ã®ç™ºå‹•å‡¦ç†
         if (Input.GetKeyDown(KeyCode.X))
         {
             FireBomb();
         }
     }
 
-    //’Êí’e‚ğ”­Ë‚·‚éƒƒ\ƒbƒh
+    //é€šå¸¸å¼¾ã‚’ç™ºå°„ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰
     void FireNormalBullet()
     {
         GameObject bulletObj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
         BulletController bullet = bulletObj.GetComponent<BulletController>();
 
-        //¶¬‚µ‚½’e‚ÌBulletController‚ğæ“¾‚µAis•ûŒü‚ğuãv‚Éİ’è‚·‚é
+        //ç”Ÿæˆã—ãŸå¼¾ã®BulletControllerã‚’å–å¾—ã—ã€é€²è¡Œæ–¹å‘ã‚’ã€Œä¸Šã€ã«è¨­å®šã™ã‚‹
         bullet.SetDirection(Vector3.up);
-        //’Êí’e‚Ìƒ_ƒ[ƒW‚ğİ’è
+        //é€šå¸¸å¼¾ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’è¨­å®š
         bullet.damage = normalShotDamage;
     }
 
-    //ƒz[ƒ~ƒ“ƒO’e‚ğ”­Ë‚·‚éƒƒ\ƒbƒh
+    //ãƒ›ãƒ¼ãƒŸãƒ³ã‚°å¼¾ã‚’ç™ºå°„ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰
     void FireHomingBullet()
     {
-        //Å‚à‹ß‚¢“G‚ğ’T‚·
+        //æœ€ã‚‚è¿‘ã„æ•µã‚’æ¢ã™
         Transform closestEnemy = FindClosestEnemy(transform.position);
 
         if (closestEnemy != null)
@@ -105,34 +105,34 @@ public class PlayerController : MonoBehaviour
             GameObject bulletObj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
             BulletController bullet = bulletObj.GetComponent<BulletController>();
             
-            //’e‚Ìƒ^[ƒQƒbƒg‚Æ‚µ‚ÄAŒ©‚Â‚¯‚½Å‚à‹ß‚¢“G‚ğİ’è‚·‚é
+            //å¼¾ã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã¨ã—ã¦ã€è¦‹ã¤ã‘ãŸæœ€ã‚‚è¿‘ã„æ•µã‚’è¨­å®šã™ã‚‹
             bullet.target = closestEnemy;
-            //ƒz[ƒ~ƒ“ƒO’e‚Ìƒ_ƒ[ƒW‚ğİ’è
+            //ãƒ›ãƒ¼ãƒŸãƒ³ã‚°å¼¾ã®ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’è¨­å®š
             bullet.damage = homingShotDamage;
         }
         else
         {
-            //‚à‚µ“G‚ªˆê‘Ì‚à‚¢‚È‚¯‚ê‚ÎA‘ã‚í‚è‚É’Êí’e‚ğ”­Ë‚·‚é
+            //ã‚‚ã—æ•µãŒä¸€ä½“ã‚‚ã„ãªã‘ã‚Œã°ã€ä»£ã‚ã‚Šã«é€šå¸¸å¼¾ã‚’ç™ºå°„ã™ã‚‹
             FireNormalBullet();
         }
     }
 
-    //Å‚à‹ß‚¢“G‚ğ’T‚µo‚·ƒƒ\ƒbƒh
+    //æœ€ã‚‚è¿‘ã„æ•µã‚’æ¢ã—å‡ºã™ãƒ¡ã‚½ãƒƒãƒ‰
     public static Transform FindClosestEnemy(Vector3 fromPosition)
     {
-        //"Enemy"ƒ^ƒO‚ğ‚Â‚·‚×‚Ä‚ÌƒIƒuƒWƒFƒNƒg‚ğ’T‚µ‚ÄA”z—ñ‚É“ü‚ê‚é
+        //"Enemy"ã‚¿ã‚°ã‚’æŒã¤ã™ã¹ã¦ã®ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’æ¢ã—ã¦ã€é…åˆ—ã«å…¥ã‚Œã‚‹
         GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
         Transform bestTarget = null;
-        float closestDistanceSqr = Mathf.Infinity; //Å‚à‹ß‚¢“G‚Æ‚Ì‹——£‚Ì2æ‚ğ‹L˜^
+        float closestDistanceSqr = Mathf.Infinity; //æœ€ã‚‚è¿‘ã„æ•µã¨ã®è·é›¢ã®2ä¹—ã‚’è¨˜éŒ²
         // Vector3 currentPosition = transform.position;
 
-        //Œ©‚Â‚¯‚½‘S‚Ä‚Ì“G‚É‘Î‚µ‚Äƒ‹[ƒvˆ—
+        //è¦‹ã¤ã‘ãŸå…¨ã¦ã®æ•µã«å¯¾ã—ã¦ãƒ«ãƒ¼ãƒ—å‡¦ç†
         foreach (GameObject potentialEnemy in enemies)
         {
             Vector3 directionToTarget = potentialEnemy.transform.position - fromPosition;
-            float dSqrToTarget = directionToTarget.sqrMagnitude; //‹——£‚Ì2æ‚ğŒvZ
+            float dSqrToTarget = directionToTarget.sqrMagnitude; //è·é›¢ã®2ä¹—ã‚’è¨ˆç®—
 
-            //‚à‚µA¡‚Ü‚Å‚ÌÅ’Z‹——£‚æ‚è‚à‹ß‚¯‚ê‚Î
+            //ã‚‚ã—ã€ä»Šã¾ã§ã®æœ€çŸ­è·é›¢ã‚ˆã‚Šã‚‚è¿‘ã‘ã‚Œã°
             if (dSqrToTarget < closestDistanceSqr)
             {
                 closestDistanceSqr = dSqrToTarget;
@@ -140,50 +140,50 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        return bestTarget; //Œ©‚Â‚¯‚½Å‚à‹ß‚¢“G‚ğ•Ô‚·
+        return bestTarget; //è¦‹ã¤ã‘ãŸæœ€ã‚‚è¿‘ã„æ•µã‚’è¿”ã™
     }
 
-    //ƒ{ƒ€‚ğ”­Ë‚·‚éƒƒ\ƒbƒh
+    //ãƒœãƒ ã‚’ç™ºå°„ã™ã‚‹ãƒ¡ã‚½ãƒƒãƒ‰
     void FireBomb()
     {
-        //360“x‚ğA’e‚Ì”‚Å‹Ï“™‚ÉŠ„‚é
+        //360åº¦ã‚’ã€å¼¾ã®æ•°ã§å‡ç­‰ã«å‰²ã‚‹
         float angleStep = 360f / bombBulletCount;
 
         for (int i = 0; i < bombBulletCount; i++)
         {
-            //Œ»İ‚Ì’e‚ÌŠp“x‚ğŒvZ
+            //ç¾åœ¨ã®å¼¾ã®è§’åº¦ã‚’è¨ˆç®—
             float currentAngle = i * angleStep;
 
-            //’e‚ğƒvƒŒƒCƒ„[‚ÌˆÊ’u‚É¶¬
+            //å¼¾ã‚’ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ä½ç½®ã«ç”Ÿæˆ
             GameObject bomb = Instantiate(bombBulletPrefab, transform.position, Quaternion.identity);
 
-            //’e‚ÌƒRƒ“ƒgƒ[ƒ‰[‚ğæ“¾‚µA’†S(©•ª©g)‚Æ‰ŠúŠp“x‚ğƒZƒbƒg‚·‚é
+            //å¼¾ã®ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ãƒ¼ã‚’å–å¾—ã—ã€ä¸­å¿ƒ(è‡ªåˆ†è‡ªèº«)ã¨åˆæœŸè§’åº¦ã‚’ã‚»ãƒƒãƒˆã™ã‚‹
             BombBulletController bombController = bomb.GetComponent<BombBulletController>();
             if (bombController != null)
             {
-                bombController.orbitCenter = transform; //utransformv‚ÍƒvƒŒƒCƒ„[©g‚ğw‚·
-                bombController.SetInitialAngle(currentAngle); //Še’e‚ÉA‚»‚ê‚¼‚ê‚Ì”­ËŠp“x‚ğ‹³‚¦‚é
+                bombController.orbitCenter = transform; //ã€Œtransformã€ã¯ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼è‡ªèº«ã‚’æŒ‡ã™
+                bombController.SetInitialAngle(currentAngle); //å„å¼¾ã«ã€ãã‚Œãã‚Œã®ç™ºå°„è§’åº¦ã‚’æ•™ãˆã‚‹
             }
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //‚Ô‚Â‚©‚Á‚Ä‚«‚½‘Šè‚Ìƒ^ƒO‚ªuEnemyv‚Ü‚½‚ÍuEmenyBulletv‚¾‚Á‚½‚ç
+        //ã¶ã¤ã‹ã£ã¦ããŸç›¸æ‰‹ã®ã‚¿ã‚°ãŒã€ŒEnemyã€ã¾ãŸã¯ã€ŒEmenyBulletã€ã ã£ãŸã‚‰
         if (other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("EnemyBullet"))
         {
-            //‚Ô‚Â‚©‚Á‚Ä‚«‚½ƒIƒuƒWƒFƒNƒg(“G‚©“G‚Ì’e)‚ğ”j‰ó‚·‚é
+            //ã¶ã¤ã‹ã£ã¦ããŸã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆ(æ•µã‹æ•µã®å¼¾)ã‚’ç ´å£Šã™ã‚‹
             Destroy(other.gameObject);
 
-            //HP‚ğ1Œ¸‚ç‚·
+            //HPã‚’1æ¸›ã‚‰ã™
             currentHp--;
-            Debug.Log("ƒvƒŒƒCƒ„[‚ÌHP : " + currentHp); //HP‚ğƒRƒ“ƒ\[ƒ‹‚É•\¦
+            Debug.Log("ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®HP : " + currentHp); //HPã‚’ã‚³ãƒ³ã‚½ãƒ¼ãƒ«ã«è¡¨ç¤º
             hpUiManager.UpdateHp(currentHp);
 
-            //‚à‚µHP‚ª0ˆÈ‰º‚É‚È‚Á‚½‚ç
+            //ã‚‚ã—HPãŒ0ä»¥ä¸‹ã«ãªã£ãŸã‚‰
             if (currentHp <= 0)
             {
-                //‚±‚ÌƒvƒŒƒCƒ„[ƒIƒuƒWƒFƒNƒg‚ğ”j‰ó‚·‚é
+                //ã“ã®ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç ´å£Šã™ã‚‹
                 Destroy(gameObject);
             }
         }

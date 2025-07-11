@@ -1,0 +1,16 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# 最上位のEditorConfigファイルであることを示す
+root = true
+
+[*]
+# 全てのファイルに適用されるルール
+indent_style = space
+indent_size = 4
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.cs]
+# C#スクリプトファイルにのみ適用されるルール
+charset = utf-8-bom

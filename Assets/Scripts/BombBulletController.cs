@@ -1,19 +1,19 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class BombBulletController : MonoBehaviour
 {
-    public Transform orbitCenter; //‰ñ“]‚Ì’†S(ƒvƒŒƒCƒ„[)
-    public float orbitSpeed = 200f; //‰ñ“]‘¬“x
-    public float orbitRadius = 1.5f; //‰ñ“]‚Ì”¼Œa
-    public float orbitDuration = 1.5f; //‰ñ“]‚·‚éŠÔ
+    public Transform orbitCenter; //å›è»¢ã®ä¸­å¿ƒ(ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼)
+    public float orbitSpeed = 200f; //å›è»¢é€Ÿåº¦
+    public float orbitRadius = 1.5f; //å›è»¢ã®åŠå¾„
+    public float orbitDuration = 1.5f; //å›è»¢ã™ã‚‹æ™‚é–“
 
-    public float homingSpeed = 15f; //ƒz[ƒ~ƒ“ƒO‚Ì‘¬“x
-    private Transform target; //’ÇÕ‚·‚é“G
-    private bool isHoming = false; //ƒz[ƒ~ƒ“ƒOƒ‚[ƒh‚ÉØ‚è‘Ö‚í‚Á‚½‚©‚Ç‚¤‚©‚Ì–Úˆó
+    public float homingSpeed = 15f; //ãƒ›ãƒ¼ãƒŸãƒ³ã‚°æ™‚ã®é€Ÿåº¦
+    private Transform target; //è¿½è·¡ã™ã‚‹æ•µ
+    private bool isHoming = false; //ãƒ›ãƒ¼ãƒŸãƒ³ã‚°ãƒ¢ãƒ¼ãƒ‰ã«åˆ‡ã‚Šæ›¿ã‚ã£ãŸã‹ã©ã†ã‹ã®ç›®å°
 
-    private float angle; //Œ»İ‚ÌŠp“x
+    private float angle; //ç¾åœ¨ã®è§’åº¦
 
-    public int damage = 10; //ƒ{ƒ€‚Ì’e‚ª—^‚¦‚éƒ_ƒ[ƒW—Ê
+    public int damage = 10; //ãƒœãƒ ã®å¼¾ãŒä¸ãˆã‚‹ãƒ€ãƒ¡ãƒ¼ã‚¸é‡
 
     public void SetInitialAngle(float initialAngle)
     {
@@ -23,38 +23,38 @@ public class BombBulletController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //‚à‚µ‰ñ“]ŠÔ‚ª‚Ü‚¾c‚Á‚Ä‚¢‚½‚ç
+        //ã‚‚ã—å›è»¢æ™‚é–“ãŒã¾ã æ®‹ã£ã¦ã„ãŸã‚‰
         if (orbitDuration > 0) {
-            //Šp“x‚ğŠÔ‚Æ‚Æ‚à‚É•Ï‰»‚³‚¹‚é
+            //è§’åº¦ã‚’æ™‚é–“ã¨ã¨ã‚‚ã«å¤‰åŒ–ã•ã›ã‚‹
             angle += orbitSpeed * Time.deltaTime;
 
-            //V‚µ‚¢ˆÊ’u‚ğŒvZ
+            //æ–°ã—ã„ä½ç½®ã‚’è¨ˆç®—
             float x = Mathf.Cos(angle * Mathf.Deg2Rad) * orbitRadius;
             float y = Mathf.Sin(angle * Mathf.Deg2Rad) * orbitRadius;
 
-            //’†S‚Ìü‚è‚ÌˆÊ’u‚ÉˆÚ“®
+            //ä¸­å¿ƒã®å‘¨ã‚Šã®ä½ç½®ã«ç§»å‹•
             transform.position = orbitCenter.position + new Vector3(x, y, 0);
 
-            //‰ñ“]ŠÔ‚ğŒ¸‚ç‚µ‚Ä‚¢‚­
+            //å›è»¢æ™‚é–“ã‚’æ¸›ã‚‰ã—ã¦ã„ã
             orbitDuration -= Time.deltaTime;
         }
-        //ƒI[ƒrƒbƒg‚ªI‚í‚Á‚½‚ç
+        //ã‚ªãƒ¼ãƒ“ãƒƒãƒˆãŒçµ‚ã‚ã£ãŸã‚‰
         else
         {
             if(!isHoming)
             {
-                //Å‚à‹ß‚¢“G‚ğ’T‚µ‚ÄA©•ª‚Ìƒ^[ƒQƒbƒg‚Éİ’è‚·‚é
+                //æœ€ã‚‚è¿‘ã„æ•µã‚’æ¢ã—ã¦ã€è‡ªåˆ†ã®ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã«è¨­å®šã™ã‚‹
                 target = PlayerController.FindClosestEnemy(transform.position);
                 isHoming=true;
             }
 
-            //‚à‚µƒ^[ƒQƒbƒg‚ªŒ©‚Â‚©‚Á‚Ä‚¢‚½‚çA‚»‚Ì•ûŒü‚Öi‚Ş
+            //ã‚‚ã—ã‚¿ãƒ¼ã‚²ãƒƒãƒˆãŒè¦‹ã¤ã‹ã£ã¦ã„ãŸã‚‰ã€ãã®æ–¹å‘ã¸é€²ã‚€
             if (target != null)
             {
                 Vector3 direction = (target.position - transform.position).normalized;
                 transform.Translate(direction * homingSpeed * Time.deltaTime);
             }
-            //‚à‚µƒ^[ƒQƒbƒg‚ª‚¢‚È‚©‚Á‚½‚çA‚Æ‚è‚ ‚¦‚¸^ã‚É”ò‚Ô
+            //ã‚‚ã—ã‚¿ãƒ¼ã‚²ãƒƒãƒˆãŒã„ãªã‹ã£ãŸã‚‰ã€ã¨ã‚Šã‚ãˆãšçœŸä¸Šã«é£›ã¶
             else
             {
                 transform.Translate(Vector3.up * homingSpeed * Time.deltaTime);
@@ -62,27 +62,27 @@ public class BombBulletController : MonoBehaviour
         }
     }
 
-    //“–‚½‚è”»’è‚Ìƒƒ\ƒbƒh
+    //å½“ãŸã‚Šåˆ¤å®šã®ãƒ¡ã‚½ãƒƒãƒ‰
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Enemy"))
         {
-            //‘Šè‚ÌEnemyController‚ğæ“¾‚µ‚ÄAƒ_ƒ[ƒW‚ğ—^‚¦‚é
+            //ç›¸æ‰‹ã®EnemyControllerã‚’å–å¾—ã—ã¦ã€ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’ä¸ãˆã‚‹
             EnemyController enemy = other.GetComponent<EnemyController>();
             if (enemy != null)
             {
                 enemy.TakeDamage(damage);
             }
 
-            //©•ª©g‚ğ”j‰ó‚·‚é
+            //è‡ªåˆ†è‡ªèº«ã‚’ç ´å£Šã™ã‚‹
             Destroy(gameObject);
         }
         else if (other.CompareTag("EnemyBullet"))
         {
-            //“G‚Ì’e‚ğ”j‰ó‚·‚é
+            //æ•µã®å¼¾ã‚’ç ´å£Šã™ã‚‹
             Destroy(other.gameObject);
 
-            //©•ª©g‚ğ”j‰ó‚·‚é
+            //è‡ªåˆ†è‡ªèº«ã‚’ç ´å£Šã™ã‚‹
             // Destroy(gameObject);
         }
     }

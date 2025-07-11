@@ -1,25 +1,25 @@
-using UnityEngine;
-using UnityEngine.UI; // Image‚È‚Ç‚ÌUIƒRƒ“ƒ|[ƒlƒ“ƒg‚ğˆµ‚¤‚½‚ß‚É•K—v
-using System.Collections.Generic; // List‚ğg‚¤‚½‚ß‚É•K—v
+ï»¿using UnityEngine;
+using UnityEngine.UI; // Imageãªã©ã®UIã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’æ‰±ã†ãŸã‚ã«å¿…è¦
+using System.Collections.Generic; // Listã‚’ä½¿ã†ãŸã‚ã«å¿…è¦
 
 public class HpUiManager : MonoBehaviour
 {
-    public List<Image> heartIcons; //ƒn[ƒg‚ÌImageƒRƒ“ƒ|[ƒlƒ“ƒg‚ğŠi”[‚·‚éƒŠƒXƒg
+    public List<Image> heartIcons; //ãƒãƒ¼ãƒˆã®Imageã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’æ ¼ç´ã™ã‚‹ãƒªã‚¹ãƒˆ
     
     public void UpdateHp(int currentHp)
     {
-        //‘S‚Ä‚Ìƒn[ƒgƒAƒCƒRƒ“‚ğƒ‹[ƒv‚Åˆ—‚·‚é
+        //å…¨ã¦ã®ãƒãƒ¼ãƒˆã‚¢ã‚¤ã‚³ãƒ³ã‚’ãƒ«ãƒ¼ãƒ—ã§å‡¦ç†ã™ã‚‹
         for (int i = 0; i < heartIcons.Count; i++)
         {
-            //‚à‚µAŒ»İ‚Ìƒ‹[ƒv‚ÌƒCƒ“ƒfƒbƒNƒX(i)‚ªAƒvƒŒƒCƒ„[‚ÌŒ»İHP‚æ‚è¬‚³‚¯‚ê‚Î
+            //ã‚‚ã—ã€ç¾åœ¨ã®ãƒ«ãƒ¼ãƒ—ã®ã‚¤ãƒ³ãƒ‡ãƒƒã‚¯ã‚¹(i)ãŒã€ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®ç¾åœ¨HPã‚ˆã‚Šå°ã•ã‘ã‚Œã°
             if (i < currentHp)
             {
-                //‚»‚Ìƒn[ƒg‚ğ•\¦‚·‚é
+                //ãã®ãƒãƒ¼ãƒˆã‚’è¡¨ç¤ºã™ã‚‹
                 heartIcons[i].enabled = true;
             }
             else
             {
-                //‚»‚Ìƒn[ƒg‚ğ”ñ•\¦‚É‚·‚é
+                //ãã®ãƒãƒ¼ãƒˆã‚’éè¡¨ç¤ºã«ã™ã‚‹
                 heartIcons[i].enabled = false;
             }
         }

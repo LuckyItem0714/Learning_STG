@@ -1,10 +1,10 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class DestroyerWall : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //‚±‚Ì•Ç‚ÉG‚ê‚½A‚ ‚ç‚ä‚éƒIƒuƒWƒFƒNƒg‚ğ”j‰ó‚·‚é
+        //ã“ã®å£ã«è§¦ã‚ŒãŸã€ã‚ã‚‰ã‚†ã‚‹ã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ç ´å£Šã™ã‚‹
         Destroy(other.gameObject);
     }
 }

@@ -1,18 +1,18 @@
-using System.Collections;
+ï»¿using System.Collections;
 using UnityEngine;
 
 public class EnemyController : MonoBehaviour
 {
     public float speed = 3f;
-    public int hp = 10; //“G‚ÌHP
-    public GameObject bulletPrefab; //“G‚ªŒ‚‚Â’e‚ÌƒvƒŒƒnƒu
-    public float fireRate = 1.5f; //’e‚ğŒ‚‚ÂŠÔŠu(•b)
-    public GameObject explosionPrefab; //”š”­ƒGƒtƒFƒNƒg‚ÌƒvƒŒƒnƒu
+    public int hp = 10; //æ•µã®HP
+    public GameObject bulletPrefab; //æ•µãŒæ’ƒã¤å¼¾ã®ãƒ—ãƒ¬ãƒãƒ–
+    public float fireRate = 1.5f; //å¼¾ã‚’æ’ƒã¤é–“éš”(ç§’)
+    public GameObject explosionPrefab; //çˆ†ç™ºã‚¨ãƒ•ã‚§ã‚¯ãƒˆã®ãƒ—ãƒ¬ãƒãƒ–
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //“G‚ª¶¬‚³‚ê‚½‚çA’e‚ğŒ‚‚Âƒ‹[ƒ`ƒ“‚ğŠJn
+        //æ•µãŒç”Ÿæˆã•ã‚ŒãŸã‚‰ã€å¼¾ã‚’æ’ƒã¤ãƒ«ãƒ¼ãƒãƒ³ã‚’é–‹å§‹
         StartCoroutine(ShootRoutine());
     }
 
@@ -26,51 +26,51 @@ public class EnemyController : MonoBehaviour
     {
         while (true)
         {
-            //fireRate•b‘Ò‚Â
+            //fireRateç§’å¾…ã¤
             yield return new WaitForSeconds(fireRate);
 
-            //’e‚ğ¶¬
+            //å¼¾ã‚’ç”Ÿæˆ
             GameObject bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            //¶¬‚µ‚½’e‚Ìƒ^ƒO‚ğuEnemyBulletv‚Éİ’è
+            //ç”Ÿæˆã—ãŸå¼¾ã®ã‚¿ã‚°ã‚’ã€ŒEnemyBulletã€ã«è¨­å®š
             bullet.tag = "EnemyBullet";
-            //¶¬‚µ‚½’e‚É‰ºŒü‚«‚Ì—Í‚ğ—^‚¦‚é
+            //ç”Ÿæˆã—ãŸå¼¾ã«ä¸‹å‘ãã®åŠ›ã‚’ä¸ãˆã‚‹
             bullet.GetComponent<BulletController>().SetDirection(Vector3.down);
         }
     }
 
-    //ƒ_ƒ[ƒW‚ğó‚¯‚é‚½‚ß‚ÌŒöŠJƒƒ\ƒbƒh
+    //ãƒ€ãƒ¡ãƒ¼ã‚¸ã‚’å—ã‘ã‚‹ãŸã‚ã®å…¬é–‹ãƒ¡ã‚½ãƒƒãƒ‰
     public void TakeDamage(int damageAmount)
     {
         hp -= damageAmount;
 
         if (hp <= 0)
         {
-            //”š”­ƒGƒtƒFƒNƒg‚ğA“G‚Ì‚¢‚½êŠ‚É¶¬‚·‚é
+            //çˆ†ç™ºã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚’ã€æ•µã®ã„ãŸå ´æ‰€ã«ç”Ÿæˆã™ã‚‹
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
-            //“G©g‚ğ”j‰ó
+            //æ•µè‡ªèº«ã‚’ç ´å£Š
             Destroy(gameObject);
 
-            //ƒXƒRƒA‚ğ‰ÁZ‚·‚é
+            //ã‚¹ã‚³ã‚¢ã‚’åŠ ç®—ã™ã‚‹
             ScoreManager.instance.AddScore(10);
         }
     }
 
-    //ƒvƒŒƒCƒ„[‚Ì’Êí’e‚É“–‚½‚Á‚½‚Ìˆ—‚ÍA‚±‚¿‚ç‚Å•Ê“rs‚¤
+    //ãƒ—ãƒ¬ã‚¤ãƒ¤ãƒ¼ã®é€šå¸¸å¼¾ã«å½“ãŸã£ãŸæ™‚ã®å‡¦ç†ã¯ã€ã“ã¡ã‚‰ã§åˆ¥é€”è¡Œã†
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            //“–‚½‚Á‚½’e‚ÌBulletControllerƒRƒ“ƒ|[ƒlƒ“ƒg‚ğæ“¾
+            //å½“ãŸã£ãŸå¼¾ã®BulletControllerã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’å–å¾—
             BulletController bullet = other.GetComponent<BulletController>();
 
-            //‚à‚µæ“¾‚Å‚«‚½‚ç(‘Šè‚ª–{“–‚É’e‚È‚ç)
+            //ã‚‚ã—å–å¾—ã§ããŸã‚‰(ç›¸æ‰‹ãŒæœ¬å½“ã«å¼¾ãªã‚‰)
             if (bullet != null)
             {
                 TakeDamage(bullet.damage);
             }
 
-            //’e‚Í“–‚½‚Á‚½‚çÁ‚¦‚é
+            //å¼¾ã¯å½“ãŸã£ãŸã‚‰æ¶ˆãˆã‚‹
             Destroy(other.gameObject);
         }
     }
@@ -79,29 +79,29 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
-            //“–‚½‚Á‚½’e‚ÌBulletControllerƒRƒ“ƒ|[ƒlƒ“ƒg‚ğæ“¾
+            //å½“ãŸã£ãŸå¼¾ã®BulletControllerã‚³ãƒ³ãƒãƒ¼ãƒãƒ³ãƒˆã‚’å–å¾—
             BulletController bullet = other.GetComponent<BulletController>();
 
-            //‚à‚µæ“¾‚Å‚«‚½‚ç(‘Šè‚ª–{“–‚É’e‚È‚ç)
+            //ã‚‚ã—å–å¾—ã§ããŸã‚‰(ç›¸æ‰‹ãŒæœ¬å½“ã«å¼¾ãªã‚‰)
             if (bullet != null)
             {
-                //HP‚ğ’e‚Ì‚Âdamage•ª‚¾‚¯Œ¸‚ç‚·
+                //HPã‚’å¼¾ã®æŒã¤damageåˆ†ã ã‘æ¸›ã‚‰ã™
                 hp -= bullet.damage;
             }
 
-            //’e‚Í“–‚½‚Á‚½‚çÁ‚¦‚é
+            //å¼¾ã¯å½“ãŸã£ãŸã‚‰æ¶ˆãˆã‚‹
             Destroy(other.gameObject);
 
-            //‚à‚µHP‚ª0ˆÈ‰º‚É‚È‚Á‚½‚ç
+            //ã‚‚ã—HPãŒ0ä»¥ä¸‹ã«ãªã£ãŸã‚‰
             if (hp <= 0)
             {
-                //”š”­ƒGƒtƒFƒNƒg‚ğA“G‚Ì‚¢‚½êŠ‚É¶¬‚·‚é
+                //çˆ†ç™ºã‚¨ãƒ•ã‚§ã‚¯ãƒˆã‚’ã€æ•µã®ã„ãŸå ´æ‰€ã«ç”Ÿæˆã™ã‚‹
                 Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
-                //“G©g‚ğ”j‰ó
+                //æ•µè‡ªèº«ã‚’ç ´å£Š
                 Destroy(gameObject);
 
-                //ƒXƒRƒA‚ğ‰ÁZ‚·‚é
+                //ã‚¹ã‚³ã‚¢ã‚’åŠ ç®—ã™ã‚‹
                 ScoreManager.instance.AddScore(10);
             }
         }

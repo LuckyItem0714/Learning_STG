@@ -1,30 +1,30 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class BulletController : MonoBehaviour
 {
     public float speed = 10f;
-    public int damage = 1; //‚±‚Ì’e‚ª—^‚¦‚éƒ_ƒ[ƒW—Ê
-    public Transform target; //’ÇÕ‚·‚é–Ú•W
+    public int damage = 1; //ã“ã®å¼¾ãŒä¸ãˆã‚‹ãƒ€ãƒ¡ãƒ¼ã‚¸é‡
+    public Transform target; //è¿½è·¡ã™ã‚‹ç›®æ¨™
 
-    private Vector3 moveDirection = Vector3.up; //ƒfƒtƒHƒ‹ƒg‚Íã•ûŒü
+    private Vector3 moveDirection = Vector3.up; //ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆã¯ä¸Šæ–¹å‘
 
     // Update is called once per frame
     void Update()
     {
         if (target != null)
         {
-            //ƒ^[ƒQƒbƒg‚Ì•ûŒü‚ÉŒü‚©‚¤ƒxƒNƒgƒ‹‚ğŒvZ
+            //ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã®æ–¹å‘ã«å‘ã‹ã†ãƒ™ã‚¯ãƒˆãƒ«ã‚’è¨ˆç®—
             Vector3 directionToTarget = (target.position - transform.position).normalized;
 
-            //Œ»İ‚Ìis•ûŒü‚ğAƒ^[ƒQƒbƒg‚Ì•ûŒü‚Åã‘‚«XV‚·‚é
+            //ç¾åœ¨ã®é€²è¡Œæ–¹å‘ã‚’ã€ã‚¿ãƒ¼ã‚²ãƒƒãƒˆã®æ–¹å‘ã§ä¸Šæ›¸ãæ›´æ–°ã™ã‚‹
             moveDirection = directionToTarget;
         }
 
-        //í‚ÉA‹L‰¯‚³‚ê‚½moveDirection‚Ì•ûŒü‚ÖˆÚ“®‚·‚é
+        //å¸¸ã«ã€è¨˜æ†¶ã•ã‚ŒãŸmoveDirectionã®æ–¹å‘ã¸ç§»å‹•ã™ã‚‹
         transform.Translate(moveDirection * speed * Time.deltaTime);
     }
 
-    //ŠO•”‚©‚ç’e‚Ìis•ûŒü‚ğİ’è‚·‚é‚½‚ß‚Ìƒƒ\ƒbƒh
+    //å¤–éƒ¨ã‹ã‚‰å¼¾ã®é€²è¡Œæ–¹å‘ã‚’è¨­å®šã™ã‚‹ãŸã‚ã®ãƒ¡ã‚½ãƒƒãƒ‰
     public void SetDirection(Vector3 newDirection)
     {
         moveDirection = newDirection;
