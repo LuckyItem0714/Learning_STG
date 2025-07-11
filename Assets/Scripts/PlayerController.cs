@@ -7,6 +7,7 @@ public class PlayerController : MonoBehaviour
 
     public int maxHp = 3; //最大HP
     private int currentHp; //現在のHP
+    public HpUiManager hpUiManager;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,6 +15,7 @@ public class PlayerController : MonoBehaviour
         //ゲーム開始時にHPを最大にする
         currentHp = maxHp;
         Debug.Log("プレイヤーのHP : " + currentHp);
+        hpUiManager.UpdateHp(currentHp);
     }
 
     // Update is called once per frame
@@ -52,6 +54,7 @@ public class PlayerController : MonoBehaviour
             //HPを1減らす
             currentHp--;
             Debug.Log("プレイヤーのHP : " + currentHp); //HPをコンソールに表示
+            hpUiManager.UpdateHp(currentHp);
 
             //もしHPが0以下になったら
             if (currentHp <= 0)
