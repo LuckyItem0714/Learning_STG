@@ -41,6 +41,9 @@ public class EnemyController : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Bullet"))
         {
+            //スコアを10加算する
+            ScoreManager.instance.AddScore(10);
+
             //爆発エフェクトを、敵のいた場所に生成する
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
 
