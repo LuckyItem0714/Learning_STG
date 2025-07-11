@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemySpawnerController : MonoBehaviour
 {
     public GameObject enemyPrefab;
-    public float spaenInterval = 2f;
+    public float spawnInterval = 2f;
     public float spawnAreaWidth = 8f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,13 +19,14 @@ public class EnemySpawnerController : MonoBehaviour
         {
             //画面上部の、左右ランダムな位置を計算
             float randomX = Random.Range(-spawnAreaWidth / 2, spawnAreaWidth / 2);
-            Vector3 spawnPosition = new Vector3(randomX, 3f, 0);
+            Vector3 localSpawnPosition = new Vector3(randomX, 4f, 0);
+            Vector3 worldSpawnPosition = transform.position + localSpawnPosition;
 
             //敵を生成
-            Instantiate(enemyPrefab, spawnPosition, Quaternion.identity);
+            Instantiate(enemyPrefab, worldSpawnPosition, Quaternion.identity);
 
             //指定した秒数だけ、処理を一時停止する
-            yield return new WaitForSeconds(spaenInterval);
+            yield return new WaitForSeconds(spawnInterval);
         }
     }
 }

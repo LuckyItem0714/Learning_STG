@@ -22,10 +22,14 @@ public class PlayerController : MonoBehaviour
         //ƒvƒŒƒCƒ„[‚ÌˆÚ“®
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
-
         Vector3 direction = new Vector3(x, y, 0);
 
-        transform.Translate(direction * speed * Time.deltaTime);
+        Vector3 newPosition = transform.localPosition + direction * speed * Time.deltaTime;
+
+        newPosition.x = Mathf.Clamp(newPosition.x, -2f, 1.7f);
+        newPosition.y = Mathf.Clamp(newPosition.y, -5f, 5f);
+
+        transform.localPosition = newPosition;
 
         //’e‚ğŒ‚‚Âˆ—
         if (Input.GetKeyDown(KeyCode.Space))
