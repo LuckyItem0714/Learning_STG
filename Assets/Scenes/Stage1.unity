@@ -198,7 +198,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 6.9211555, y: 0.57858753}
+  m_Offset: {x: 14.717334, y: 0.6452217}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -208,7 +208,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.32895, y: 14.026724}
+  m_Size: {x: 9.993334, y: 21.756268}
   m_EdgeRadius: 0
 --- !u!1 &170912582
 GameObject:
@@ -224,7 +224,7 @@ GameObject:
   - component: {fileID: 170912587}
   - component: {fileID: 170912586}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0, g: 0.7291813, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -294,8 +294,8 @@ Transform:
   m_GameObject: {fileID: 170912582}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -3.5, z: 0}
+  m_LocalScale: {x: 0.35, y: 0.35, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1043708483}
@@ -312,10 +312,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c36855379e3d25943b40e5f601e6d223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
+  normalSpeed: 5
+  slowSpeed: 2.5
+  moveSmoothing: 0
   maxHp: 3
   hpUiManager: {fileID: 1207013289}
+  bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
+  fireRate: 0.1
+  normalShotDamage: 2
+  homingShotDamage: 1
+  bombBulletPrefab: {fileID: 8686151615995573706, guid: e9f74c002f14b2e4d82d61bdeee1d6fd, type: 3}
+  bombBulletCount: 10
 --- !u!61 &170912586
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -607,7 +614,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.32002592, y: 8.889006}
+  m_Offset: {x: -0.443326, y: 15.638149}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -617,7 +624,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 10.039742, y: 3.5672188}
+  m_Size: {x: 23.274061, y: 9.9967575}
   m_EdgeRadius: 0
 --- !u!1 &1043708482
 GameObject:
@@ -731,7 +738,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -7.646607, y: 0.6371517}
+  m_Offset: {x: -15.409468, y: 0.6371517}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -741,7 +748,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.459235, y: 14.01132}
+  m_Size: {x: 9.923724, y: 21.874134}
   m_EdgeRadius: 0
 --- !u!1 &1207013286
 GameObject:
@@ -1274,7 +1281,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.4161167, y: -7.6506586}
+  m_Offset: {x: -0.5394182, y: -14.3617115}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1284,7 +1291,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 10.087206, y: 3.5158863}
+  m_Size: {x: 22.828321, y: 10.022831}
   m_EdgeRadius: 0
 --- !u!1 &1952514682
 GameObject:
