@@ -2,82 +2,123 @@
 
 public class BombBulletController : MonoBehaviour
 {
-    public Transform orbitCenter; //回転の中心(プレイヤー)
-    public float orbitSpeed = 200f; //回転速度
-    public float orbitRadius = 1.5f; //回転の半径
-    public float orbitDuration = 1.5f; //回転する時間
+    // --- 公開設定 ---
+    public float orbitSpeed = 200f;
+    public float orbitRadius = 1.5f;
+    public float orbitDuration = 1.5f;
+    public float homingSpeed = 15f;
+    public int damage = 10;
 
-    public float homingSpeed = 15f; //ホーミング時の速度
-    private Transform target; //追跡する敵
-    private bool isHoming = false; //ホーミングモードに切り替わったかどうかの目印
+    // --- 内部変数 ---
+    private Transform orbitCenter;
+    private Transform target;
+    private Vector3 lastKnownPosition;
+    private float angle;
 
-    private float angle; //現在の角度
+    //ボム弾の状態を管理するための「enum（列挙型）」
+    private enum BombState { Orbiting, Homing, MovingToLastPos }
+    private BombState currentState;
 
-    public int damage = 10; //ボムの弾が与えるダメージ量
-
-    public void SetInitialAngle(float initialAngle)
+    // --- 初期設定 ---
+    public void Initialize(Transform center, float initialAngle)
     {
+        orbitCenter = center;
         angle = initialAngle;
+        currentState = BombState.Orbiting; //初期状態は周回
     }
 
     // Update is called once per frame
     void Update()
     {
-        //もし回転時間がまだ残っていたら
-        if (orbitDuration > 0) {
-            //角度を時間とともに変化させる
-            angle += orbitSpeed * Time.deltaTime;
+        //現在の状態で、どの処理を行うか切り替える
+        switch (currentState)
+        {
+            case BombState.Orbiting:
+                HandleOrbiting();
+                break;
+            case BombState.Homing:
+                HandleHoming();
+                break;
+            case BombState.MovingToLastPos:
+                HandleMovingToLastPosition();
+                break;
+        }
+    }
 
-            //新しい位置を計算
+    // --- 各状態の処理 ---
+    void HandleOrbiting()
+    {
+        if (orbitDuration > 0 && orbitCenter != null)
+        {
+            angle += orbitSpeed * Time.deltaTime;
             float x = Mathf.Cos(angle * Mathf.Deg2Rad) * orbitRadius;
             float y = Mathf.Sin(angle * Mathf.Deg2Rad) * orbitRadius;
-
-            //中心の周りの位置に移動
             transform.position = orbitCenter.position + new Vector3(x, y, 0);
-
-            //回転時間を減らしていく
             orbitDuration -= Time.deltaTime;
         }
-        //オービットが終わったら
         else
         {
-            if(!isHoming)
-            {
-                //最も近い敵を探して、自分のターゲットに設定する
-                target = PlayerController.FindClosestEnemy(transform.position);
-                isHoming=true;
-            }
-
-            //もしターゲットが見つかっていたら、その方向へ進む
+            //周回が終わったらホーミング状態へ移行
+            target = PlayerController.FindClosestEnemy(transform.position);
             if (target != null)
             {
-                Vector3 direction = (target.position - transform.position).normalized;
-                transform.Translate(direction * homingSpeed * Time.deltaTime);
+                lastKnownPosition = target.position; //最後の位置を記憶
+                currentState = BombState.Homing;
             }
-            //もしターゲットがいなかったら、とりあえず真上に飛ぶ
             else
             {
-                transform.Translate(Vector3.up * homingSpeed * Time.deltaTime);
+                //敵がいない場合は、まっすぐ上に飛んでいく
+                lastKnownPosition = transform.position + Vector3.up * 10f;
+                currentState = BombState.MovingToLastPos;
             }
         }
     }
 
-    //当たり判定のメソッド
-    private void OnTriggerEnter2D(Collider2D other)
+    void HandleHoming()
     {
-        if (other.CompareTag("Enemy"))
+        if (target != null)
         {
-            //相手のEnemyControllerを取得して、ダメージを与える
-            EnemyController enemy = other.GetComponent<EnemyController>();
-            if (enemy != null)
-            {
-                enemy.TakeDamage(damage);
-            }
+            lastKnownPosition = target.position; //ターゲットの位置を追いかけながら記憶
+            Vector3 direction = (lastKnownPosition - transform.position).normalized;
+            transform.Translate(direction * homingSpeed * Time.deltaTime);
+        }
+        else
+        {
+            //ターゲットを見失ったら、最後の位置へ向かう状態に移行
+            currentState = BombState.MovingToLastPos;
+        }
+    }
 
-            //自分自身を破壊する
+    void HandleMovingToLastPosition()
+    {
+        //最後の位置に向かってまっすぐ飛ぶ
+        Vector3 direction = (lastKnownPosition - transform.position).normalized;
+        transform.Translate(direction * homingSpeed * Time.deltaTime);
+
+        //目的地に十分近づいたら、自分を破壊する
+        if (Vector3.Distance(transform.position, lastKnownPosition) < 0.1f)
+        {
             Destroy(gameObject);
         }
-        else if (other.CompareTag("EnemyBullet"))
+    }
+
+    //当たり判定のメソッド
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (currentState == BombState.Homing || currentState == BombState.MovingToLastPos)
+        {
+            if (other.CompareTag("Enemy"))
+            {
+                //カメラシェイクを呼び出す
+                CameraShake.instance.TriggerShake(0.2f, 0.5f);
+
+                other.GetComponent<EnemyController>()?.TakeDamage(damage);
+                Destroy(gameObject);
+            }
+        }
+
+        //状態に関わらず、敵の弾はいつでも消す
+        if (other.CompareTag("EnemyBullet"))
         {
             //敵の弾を破壊する
             Destroy(other.gameObject);

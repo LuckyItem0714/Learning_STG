@@ -157,13 +157,8 @@ public class PlayerController : MonoBehaviour
             //弾をプレイヤーの位置に生成
             GameObject bomb = Instantiate(bombBulletPrefab, transform.position, Quaternion.identity);
 
-            //弾のコントローラーを取得し、中心(自分自身)と初期角度をセットする
-            BombBulletController bombController = bomb.GetComponent<BombBulletController>();
-            if (bombController != null)
-            {
-                bombController.orbitCenter = transform; //「transform」はプレイヤー自身を指す
-                bombController.SetInitialAngle(currentAngle); //各弾に、それぞれの発射角度を教える
-            }
+            //Initializeメソッドを呼び出して初期設定を行う
+            bomb.GetComponent<BombBulletController>()?.Initialize(transform, currentAngle);
         }
     }
 
