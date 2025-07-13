@@ -17,7 +17,15 @@ public abstract class BaseBullet : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
-        
+        if (moveDirection != Vector3.zero)
+        {
+            // moveDirectionから角度を計算し、Z軸周りの回転を生成する
+            // Atan2はy,xの順で引数を渡す。-90fはスプライトの上が正面の場合の補正値
+            float angle = Mathf.Atan2(moveDirection.y, moveDirection.x) * Mathf.Rad2Deg - 90f;
+            transform.rotation = Quaternion.Euler(0, 0, angle);
+        }
+
+        transform.Translate(moveDirection * speed * Time.deltaTime, Space.World);
     }
 
     //外部から弾の進行方向を設定するためのメソッド

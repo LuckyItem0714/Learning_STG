@@ -312,6 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c36855379e3d25943b40e5f601e6d223, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameSettings: {fileID: 11400000, guid: 898553f5c86db32469b679b1320f5caf, type: 2}
   normalSpeed: 5
   slowSpeed: 2.5
   moveSmoothing: 0
@@ -535,8 +536,12 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 614825664172090501, guid: 9859f5bbabf70bf44bf1590cc1325fb5, type: 3}
   - {fileID: 614825664172090501, guid: e20eaaa287214334da5a28c8dd8ed507, type: 3}
+  - {fileID: 614825664172090501, guid: 1f85c86415464bc4b9780ba3ded395a9, type: 3}
+  - {fileID: 614825664172090501, guid: 8592aa185506b80498910c32c4f74745, type: 3}
+  - {fileID: 614825664172090501, guid: 650250c793503094280ec903b02f9fd7, type: 3}
   spawnInterval: 2
   spawnAreaWidth: 9
+  gameWorld: {fileID: 1043708483}
 --- !u!4 &1013796137
 Transform:
   m_ObjectHideFlags: 0

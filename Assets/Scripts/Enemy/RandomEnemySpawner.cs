@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class RandomEnemySpawner : BaseEnemySpawner
 {
+    [Header("生成設定")]
+    public Transform gameWorld;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     protected override void Start()
     {
@@ -23,7 +26,13 @@ public class RandomEnemySpawner : BaseEnemySpawner
             GameObject enemyToSpawn = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
 
             //敵を生成
-            Instantiate(enemyToSpawn, worldSpawnPosition, Quaternion.identity);
+            GameObject enemyObj = Instantiate(enemyToSpawn, worldSpawnPosition, Quaternion.identity);
+
+            //もしgameWorldが設定されていたら、それを親にする
+            if (gameWorld != null)
+            {
+                enemyObj.transform.SetParent(gameWorld);
+            }
 
             //指定した秒数だけ、処理を一時停止する
             yield return new WaitForSeconds(spawnInterval);

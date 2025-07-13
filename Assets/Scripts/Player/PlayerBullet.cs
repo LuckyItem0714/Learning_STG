@@ -14,7 +14,6 @@ public class PlayerBullet : BaseBullet
             moveDirection = directionToTarget;
         }
 
-        //常に、記憶されたmoveDirectionの方向へ移動する
-        transform.Translate(moveDirection * speed * Time.deltaTime);
+        base.Update();
     }
 }

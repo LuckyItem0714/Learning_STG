@@ -1,8 +1,12 @@
-﻿using System.Collections;
+﻿using JetBrains.Annotations;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("System References")]
+    public GameSettings gameSettings; //設定ファイルを格納する変数を定義
+
     public float normalSpeed = 5f; //通常スピード
     public float slowSpeed = 2.5f; //低速スピード
     public float moveSmoothing = 0.1f; //移動の滑らかさ(小さいほど機敏、大きいほど滑る)
@@ -57,8 +61,8 @@ public class PlayerController : MonoBehaviour
         Vector3 newPosition = transform.localPosition + currentVelocity * Time.deltaTime;
 
         //座標を制限
-        newPosition.x = Mathf.Clamp(newPosition.x, -4.45f, 4.45f);
-        newPosition.y = Mathf.Clamp(newPosition.y, -5f, 5f);
+        newPosition.x = Mathf.Clamp(newPosition.x, gameSettings.playerMinX, gameSettings.playerMaxX);
+        newPosition.y = Mathf.Clamp(newPosition.y, gameSettings.playerMinY, gameSettings.playerMaxY);
 
         transform.localPosition = newPosition;
 
