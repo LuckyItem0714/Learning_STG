@@ -225,7 +225,7 @@ GameObject:
   - component: {fileID: 170912586}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -317,7 +317,9 @@ MonoBehaviour:
   moveSmoothing: 0
   maxHp: 3
   hpUiManager: {fileID: 1207013289}
-  bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
+  lives: 3
+  invincibilityDuration: 2
+  bulletPrefab: {fileID: 6981558901318756519, guid: b93909edd4018c1478bee28e44f5ee9a, type: 3}
   fireRate: 0.1
   normalShotDamage: 2
   homingShotDamage: 1
@@ -530,7 +532,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43798aa6a89861d4c80bc5390d13bf1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 614825664172090501, guid: 9859f5bbabf70bf44bf1590cc1325fb5, type: 3}
+  enemyPrefabs:
+  - {fileID: 614825664172090501, guid: 9859f5bbabf70bf44bf1590cc1325fb5, type: 3}
+  - {fileID: 614825664172090501, guid: e20eaaa287214334da5a28c8dd8ed507, type: 3}
   spawnInterval: 2
   spawnAreaWidth: 9
 --- !u!4 &1013796137
@@ -861,7 +865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -60}
+  m_AnchoredPosition: {x: 0, y: -100}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1251422328

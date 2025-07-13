@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,6 +11,10 @@ public class PlayerController : MonoBehaviour
     public int maxHp = 3; //最大HP
     private int currentHp; //現在のHP
     public HpUiManager hpUiManager;
+    public int lives = 3; //残機
+    public float invincibilityDuration = 2f; //無敵時間(秒)
+    private bool isInvincible = false; //現在無敵かどうか
+    private Vector3 initialPosition; //初期位置を記憶
 
     [Header("射撃設定")] //インスペクターに見出しを追加
     public GameObject bulletPrefab; //弾のプレハブを格納する変数
@@ -29,6 +34,7 @@ public class PlayerController : MonoBehaviour
         currentHp = maxHp;
         Debug.Log("プレイヤーのHP : " + currentHp);
         hpUiManager.UpdateHp(currentHp);
+        initialPosition = transform.localPosition;
 
         //初期位置変更
         transform.position = new Vector3(0, -3.5f, 0);
@@ -86,7 +92,7 @@ public class PlayerController : MonoBehaviour
     void FireNormalBullet()
     {
         GameObject bulletObj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        BulletController bullet = bulletObj.GetComponent<BulletController>();
+        PlayerBullet bullet = bulletObj.GetComponent<PlayerBullet>();
 
         //生成した弾のBulletControllerを取得し、進行方向を「上」に設定する
         bullet.SetDirection(Vector3.up);
@@ -103,7 +109,7 @@ public class PlayerController : MonoBehaviour
         if (closestEnemy != null)
         {
             GameObject bulletObj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-            BulletController bullet = bulletObj.GetComponent<BulletController>();
+            PlayerBullet bullet = bulletObj.GetComponent<PlayerBullet>();
             
             //弾のターゲットとして、見つけた最も近い敵を設定する
             bullet.target = closestEnemy;
@@ -164,6 +170,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (isInvincible)
+        {
+            return; //この先の処理を何もせずに関数を抜ける
+        }
         //ぶつかってきた相手のタグが「Enemy」または「EmenyBullet」だったら
         if (other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("EnemyBullet"))
         {
@@ -178,9 +188,55 @@ public class PlayerController : MonoBehaviour
             //もしHPが0以下になったら
             if (currentHp <= 0)
             {
-                //このプレイヤーオブジェクトを破壊する
-                Destroy(gameObject);
+                //即座に破壊するのではなく、Dieメソッド呼出
+                Die();
             }
         }
+    }
+
+    void Die()
+    {
+        lives--; //ライフを1つ減らす
+
+        //もしライフがまだ残っていたら
+        if (lives > 0)
+        {
+            Respawn();
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    void Respawn()
+    {
+        //HPを全回復
+        currentHp = maxHp;
+        hpUiManager.UpdateHp(currentHp);
+
+        transform.localPosition = initialPosition; //初期位置に戻す
+
+        StartCoroutine(InvincibilityCoroutine()); //無敵時間のコルーチンを開始
+    }
+
+    IEnumerator InvincibilityCoroutine()
+    {
+        isInvincible = true; //無敵モードON
+
+        //点滅処理
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        float blinkInterval = 0.1f; //点滅の間隔
+        float invincibilityTimer = invincibilityDuration;
+
+        while (invincibilityTimer > 0)
+        {
+            sr.enabled = !sr.enabled; //表示・非表示を切り替える
+            invincibilityTimer -= blinkInterval;
+            yield return new WaitForSeconds(blinkInterval);
+        }
+
+        sr.enabled = true; //確実に表示状態に戻す
+        isInvincible = false; //無敵モードOFF
     }
 }

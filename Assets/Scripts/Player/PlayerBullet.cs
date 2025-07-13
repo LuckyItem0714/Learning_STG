@@ -1,15 +1,9 @@
 ﻿using UnityEngine;
 
-public class BulletController : MonoBehaviour
+public class PlayerBullet : BaseBullet
 {
-    public float speed = 10f;
-    public int damage = 1; //この弾が与えるダメージ量
-    public Transform target; //追跡する目標
-
-    private Vector3 moveDirection = Vector3.up; //デフォルトは上方向
-
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         if (target != null)
         {
@@ -22,11 +16,5 @@ public class BulletController : MonoBehaviour
 
         //常に、記憶されたmoveDirectionの方向へ移動する
         transform.Translate(moveDirection * speed * Time.deltaTime);
-    }
-
-    //外部から弾の進行方向を設定するためのメソッド
-    public void SetDirection(Vector3 newDirection)
-    {
-        moveDirection = newDirection;
     }
 }

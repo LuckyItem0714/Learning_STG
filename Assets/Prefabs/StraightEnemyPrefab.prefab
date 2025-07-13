@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 190167209169265036}
   - component: {fileID: 3767764344239692371}
   - component: {fileID: 7910567001981300029}
-  - component: {fileID: 268582720640455734}
+  - component: {fileID: 6361713522339292277}
   m_Layer: 0
-  m_Name: Enemy
+  m_Name: StraightEnemyPrefab
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.3018868, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -167,7 +167,7 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 0
---- !u!114 &268582720640455734
+--- !u!114 &6361713522339292277
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,14 +176,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 614825664172090501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc9e520bb486fb44392c563708f2ed97, type: 3}
+  m_Script: {fileID: 11500000, guid: f3c681eb7dabca944ba8f27acebacda3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
   hp: 10
   scoreValue: 10
   explosionPrefab: {fileID: 6669791778644884500, guid: 1b8d7605dadaa4d49bd7d25d584d10e2, type: 3}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
   fireRate: 1.5
-  sineFrequency: 2
-  sineMagnitude: 1

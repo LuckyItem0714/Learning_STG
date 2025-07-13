@@ -1,17 +1,15 @@
 ﻿using UnityEngine;
 
-public class BombBulletController : MonoBehaviour
+public class BombBulletController : BaseBullet
 {
     // --- 公開設定 ---
     public float orbitSpeed = 200f;
     public float orbitRadius = 1.5f;
     public float orbitDuration = 1.5f;
-    public float homingSpeed = 15f;
-    public int damage = 10;
+    public float homingSpeed = 15;
 
     // --- 内部変数 ---
     private Transform orbitCenter;
-    private Transform target;
     private Vector3 lastKnownPosition;
     private float angle;
 
@@ -28,7 +26,7 @@ public class BombBulletController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    protected override void Update()
     {
         //現在の状態で、どの処理を行うか切り替える
         switch (currentState)
@@ -112,7 +110,7 @@ public class BombBulletController : MonoBehaviour
                 //カメラシェイクを呼び出す
                 CameraShake.instance.TriggerShake(0.2f, 0.5f);
 
-                other.GetComponent<EnemyController>()?.TakeDamage(damage);
+                other.GetComponent<BaseEnemy>()?.TakeDamage(damage);
                 Destroy(gameObject);
             }
         }
@@ -125,6 +123,11 @@ public class BombBulletController : MonoBehaviour
 
             //自分自身を破壊する
             // Destroy(gameObject);
+        }
+
+        if (other.CompareTag("Enemy"))
+        {
+            other.GetComponent<BaseEnemy>()?.TakeDamage(damage);
         }
     }
 }

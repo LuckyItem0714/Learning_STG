@@ -1,13 +1,10 @@
 ﻿using System.Collections;
 using UnityEngine;
 
-public class EnemySpawnerController : MonoBehaviour
+public class RandomEnemySpawner : BaseEnemySpawner
 {
-    public GameObject enemyPrefab;
-    public float spawnInterval = 2f;
-    public float spawnAreaWidth = 8f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    protected override void Start()
     {
         //ゲームが始まったら、敵を生成するルーチンを開始する
         StartCoroutine(SpawnEnemyRoutine());
@@ -22,8 +19,11 @@ public class EnemySpawnerController : MonoBehaviour
             Vector3 localSpawnPosition = new Vector3(randomX, 4f, 0);
             Vector3 worldSpawnPosition = transform.position + localSpawnPosition;
 
+            //敵のリストの中から、ランダムに1種類を選ぶ
+            GameObject enemyToSpawn = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+
             //敵を生成
-            Instantiate(enemyPrefab, worldSpawnPosition, Quaternion.identity);
+            Instantiate(enemyToSpawn, worldSpawnPosition, Quaternion.identity);
 
             //指定した秒数だけ、処理を一時停止する
             yield return new WaitForSeconds(spawnInterval);
