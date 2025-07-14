@@ -9,10 +9,16 @@ public abstract class BaseEnemy : MonoBehaviour
     public int hp = 10;
     public int scoreValue = 10;
     public GameObject explosionPrefab;
+    public AudioClip explosionSfx;
 
     [Header("射撃設定")]
     public GameObject bulletPrefab;
     public float fireRate = 1.5f;
+
+    [Header("アイテムドロップ設定")]
+    public GameObject powerUpPrefab;
+    [Range(0, 100)]
+    public int dropChancePercentage = 5; //アイテムをドロップする確率(%)
 
     // ゲーム開始時に一度だけ呼ばれる
     protected virtual void Start()
@@ -56,6 +62,13 @@ public abstract class BaseEnemy : MonoBehaviour
             Instantiate(explosionPrefab, transform.position, Quaternion.identity);
         }
 
+        //ドロップ確率の抽選
+        if (powerUpPrefab != null && Random.Range(1, 101) <= dropChancePercentage)
+        {
+            Instantiate(powerUpPrefab, transform.position, Quaternion.identity);
+        }
+
+        SoundManager.instance.PlaySfx(explosionSfx);
         // 自身を破壊
         Destroy(gameObject);
     }

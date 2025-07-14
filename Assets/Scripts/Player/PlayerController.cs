@@ -39,7 +39,14 @@ public class PlayerController : MonoBehaviour
     public Sprite moveRightSprite_1; //右移動時のスプライト1
     public Sprite moveRightSprite_2; //右移動時のスプライト2
 
+    [Header("サウンド設定")]
+    public AudioClip shootSfx; //発射音のオーディオクリップ
+
+    private AudioSource playerAudioSource; //プレイヤーの効果音用スピーカー
+
     private SpriteRenderer spriteRenderer; //SpriteRendererコンポーネントを格納する変数
+
+    private int powerLevel = 0; //プレイヤーの現在のパワーレベル
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -124,13 +131,30 @@ public class PlayerController : MonoBehaviour
     //通常弾を発射するメソッド
     void FireNormalBullet()
     {
-        GameObject bulletObj = Instantiate(bulletPrefab, transform.position, Quaternion.identity);
-        PlayerBullet bullet = bulletObj.GetComponent<PlayerBullet>();
+        //パワーレベルに応じて、発射パターンを切り替える
+        switch (powerLevel)
+        {
+            case 0: //レベル0:通常の1発
+                ShootBulletAt(Vector3.up, Vector3.zero);
+                break;
+            case 1: //レベル1:2-Wayショット
+                ShootBulletAt(Vector3.up, new Vector3(-0.1f, 0, 0));
+                ShootBulletAt(Vector3.up, new Vector3(0.1f, 0, 0));
+                break;
+            case 2: //レベル2:3-Wayショット
+                ShootBulletAt(Vector3.up, Vector3.zero); // 中央
+                ShootBulletAt(Quaternion.Euler(0, 0, 15) * Vector3.up, Vector3.zero); // 右斜め
+                ShootBulletAt(Quaternion.Euler(0, 0, -15) * Vector3.up, Vector3.zero); // 左斜め
+                break;
+            default: //レベル3以上:3-Wayショット+ダメージ増加
+                ShootBulletAt(Vector3.up, Vector3.zero, homingShotDamage + 1); // ダメージを少し上げる
+                ShootBulletAt(Quaternion.Euler(0, 0, 15) * Vector3.up, Vector3.zero, homingShotDamage + 1);
+                ShootBulletAt(Quaternion.Euler(0, 0, -15) * Vector3.up, Vector3.zero, homingShotDamage + 1);
+                break;
+        }
 
-        //生成した弾のBulletControllerを取得し、進行方向を「上」に設定する
-        bullet.SetDirection(Vector3.up);
-        //通常弾のダメージを設定
-        bullet.damage = normalShotDamage;
+        //発射音を再生する
+        SoundManager.instance.PlaySfx(shootSfx);
     }
 
     //ホーミング弾を発射するメソッド
@@ -154,6 +178,9 @@ public class PlayerController : MonoBehaviour
             //もし敵が一体もいなければ、代わりに通常弾を発射する
             FireNormalBullet();
         }
+
+        //発射音を再生する
+        SoundManager.instance.PlaySfx(shootSfx);
     }
 
     //最も近い敵を探し出すメソッド
@@ -210,8 +237,11 @@ public class PlayerController : MonoBehaviour
         //ぶつかってきた相手のタグが「Enemy」または「EmenyBullet」だったら
         if (other.gameObject.CompareTag("Enemy") || other.gameObject.CompareTag("EnemyBullet"))
         {
-            //ぶつかってきたオブジェクト(敵か敵の弾)を破壊する
-            Destroy(other.gameObject);
+            //ぶつかってきたオブジェクト(敵の弾)を破壊する
+            if (other.gameObject.CompareTag("EnemyBullet"))
+            {
+                Destroy(other.gameObject);
+            }
 
             //HPを1減らす
             currentHp--;
@@ -224,6 +254,14 @@ public class PlayerController : MonoBehaviour
                 //即座に破壊するのではなく、Dieメソッド呼出
                 Die();
             }
+        }
+
+        if (other.CompareTag("PowerUp"))
+        {
+            powerLevel++; //パワーレベルを1上げる
+            Debug.Log("パワーアップ!現在のレベル : " + powerLevel);
+            Destroy(other.gameObject); //アイテムを消す
+            // TODO; アイテム取得音を鳴らす
         }
     }
 
@@ -271,5 +309,23 @@ public class PlayerController : MonoBehaviour
 
         sr.enabled = true; //確実に表示状態に戻す
         isInvincible = false; //無敵モードOFF
+    }
+
+    //弾を1初生成するための、より汎用的なメソッド
+    void ShootBulletAt(Vector3 direction, Vector3 positionOffset, int damage)
+    {
+        GameObject bulletObj = Instantiate(bulletPrefab, transform.position + positionOffset, Quaternion.identity);
+        PlayerBullet bullet = bulletObj.GetComponent<PlayerBullet>();
+        if (bullet != null)
+        {
+            bullet.SetDirection(direction);
+            bullet.damage = damage;
+        }
+    }
+
+    //メソッドのオーバーロード(ダメージ引数がないバージョン)
+    void ShootBulletAt(Vector3 direction, Vector3 positionOffset)
+    {
+        ShootBulletAt(direction, positionOffset, normalShotDamage);
     }
 }

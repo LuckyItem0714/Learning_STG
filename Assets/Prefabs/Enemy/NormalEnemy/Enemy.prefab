@@ -147,7 +147,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -163,9 +163,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5773587}
-      - {x: -0.5, y: -0.28866667}
-      - {x: 0.5, y: -0.28866667}
+    - - {x: -0.074999996, y: 0.13}
+      - {x: -0.114999995, y: 0.089999996}
+      - {x: -0.114999995, y: -0.12}
+      - {x: -0.085, y: -0.13}
+      - {x: 0.114999995, y: -0.13}
+      - {x: 0.114999995, y: 0.13}
   m_UseDelaunayMesh: 0
 --- !u!114 &268582720640455734
 MonoBehaviour:
@@ -183,7 +186,10 @@ MonoBehaviour:
   hp: 10
   scoreValue: 10
   explosionPrefab: {fileID: 2377593363162322766, guid: 1b8d7605dadaa4d49bd7d25d584d10e2, type: 3}
+  explosionSfx: {fileID: 8300000, guid: a30fff2a07c75ae4080f8c5cc18eff7c, type: 3}
   bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
   fireRate: 1.5
+  powerUpPrefab: {fileID: 3195966688221590716, guid: 28c8c087c39aeaa4584667d507e5cd44, type: 3}
+  dropChancePercentage: 15
   sineFrequency: 2
   sineMagnitude: 1

@@ -103,6 +103,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHp: 500
+  spawnInvincibilityDuration: 1
+  bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
 --- !u!50 &7578088692546815439
 Rigidbody2D:
   serializedVersion: 5

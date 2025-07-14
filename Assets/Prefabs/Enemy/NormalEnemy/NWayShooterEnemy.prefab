@@ -133,8 +133,11 @@ MonoBehaviour:
   hp: 10
   scoreValue: 10
   explosionPrefab: {fileID: 2377593363162322766, guid: 1b8d7605dadaa4d49bd7d25d584d10e2, type: 3}
+  explosionSfx: {fileID: 8300000, guid: a30fff2a07c75ae4080f8c5cc18eff7c, type: 3}
   bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
   fireRate: 1.5
+  powerUpPrefab: {fileID: 3195966688221590716, guid: 28c8c087c39aeaa4584667d507e5cd44, type: 3}
+  dropChancePercentage: 50
   numberOfBullets: 5
   spreadAngle: 90
 --- !u!60 &4993509521926996411
