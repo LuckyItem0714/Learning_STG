@@ -1,0 +1,363 @@
+fileFormatVersion: 2
+guid: ed3b666c24afcaa47b7fba0ecfa7fd57
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1288817912319160048
+    second: tktk_Sword_25L_0
+  - first:
+      213: -1489664618548064756
+    second: tktk_Sword_25L_1
+  - first:
+      213: 5552138540545133251
+    second: tktk_Sword_25L_2
+  - first:
+      213: -5962288393167564572
+    second: tktk_Sword_25L_3
+  - first:
+      213: 3990086534816316211
+    second: tktk_Sword_25L_4
+  - first:
+      213: 7448370593434254934
+    second: tktk_Sword_25L_5
+  - first:
+      213: 8116211986628357982
+    second: tktk_Sword_25L_6
+  - first:
+      213: 8706961675655565646
+    second: tktk_Sword_25L_7
+  - first:
+      213: 5161079480038495512
+    second: tktk_Sword_25L_8
+  - first:
+      213: 2293205279060361741
+    second: tktk_Sword_25L_9
+  - first:
+      213: -4280509357166718093
+    second: tktk_Sword_25L_10
+  - first:
+      213: -2008245041981182899
+    second: tktk_Sword_25L_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tktk_Sword_25L_0
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 791
+        width: 166
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fea1f3101dc2e110800000000000000
+      internalID: 1288817912319160048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_1
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 586
+        width: 253
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e89f80ce5a35be0800000000000000
+      internalID: -1489664618548064756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 588
+        width: 317
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cac2fc06982d0d40800000000000000
+      internalID: 5552138540545133251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_4
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 391
+        width: 326
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33bbbc22092af5730800000000000000
+      internalID: 3990086534816316211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_5
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 388
+        width: 337
+        height: 187
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e3d11779ded5760800000000000000
+      internalID: 7448370593434254934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_6
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 190
+        width: 350
+        height: 195
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f20c0ecc392a070800000000000000
+      internalID: 8116211986628357982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_7
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 165
+        width: 360
+        height: 220
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41d366338755d870800000000000000
+      internalID: 8706961675655565646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 344
+        height: 192
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0281772d0a13df10800000000000000
+      internalID: 2293205279060361741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tktk_Sword_25L_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 0
+        width: 129
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37397543b639894c0800000000000000
+      internalID: -4280509357166718093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 329ee7bc8646500449b480757347b3d6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tktk_Sword_25L_0: 1288817912319160048
+      tktk_Sword_25L_1: -1489664618548064756
+      tktk_Sword_25L_10: -4280509357166718093
+      tktk_Sword_25L_11: -2008245041981182899
+      tktk_Sword_25L_2: 5552138540545133251
+      tktk_Sword_25L_3: -5962288393167564572
+      tktk_Sword_25L_4: 3990086534816316211
+      tktk_Sword_25L_5: 7448370593434254934
+      tktk_Sword_25L_6: 8116211986628357982
+      tktk_Sword_25L_7: 8706961675655565646
+      tktk_Sword_25L_8: 5161079480038495512
+      tktk_Sword_25L_9: 2293205279060361741
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

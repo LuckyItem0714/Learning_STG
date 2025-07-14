@@ -31,6 +31,16 @@ public class PlayerController : MonoBehaviour
     public GameObject bombBulletPrefab; //ボムの弾プレハブ
     public int bombBulletCount = 10; //生成するボムの弾の数
 
+    [Header("スプライト設定")]
+    public Sprite idleSprite_1; //静止時のスプライト1
+    public Sprite idleSprite_2; //静止時のスプライト2
+    public Sprite moveLeftSprite_1; //左移動時のスプライト1
+    public Sprite moveLeftSprite_2; //左移動時のスプライト2
+    public Sprite moveRightSprite_1; //右移動時のスプライト1
+    public Sprite moveRightSprite_2; //右移動時のスプライト2
+
+    private SpriteRenderer spriteRenderer; //SpriteRendererコンポーネントを格納する変数
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -42,6 +52,8 @@ public class PlayerController : MonoBehaviour
 
         //初期位置変更
         transform.position = new Vector3(0, -3.5f, 0);
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -54,6 +66,23 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
         Vector3 targetVelocity = new Vector3(x, y, 0) * targetSpeed;
+
+        //スプライト切り替え処理
+        if (x > 0.1f) //右に動いている場合
+        {
+            spriteRenderer.sprite = moveRightSprite_1;
+            spriteRenderer.sprite = moveRightSprite_2;
+        }
+        else if (x < -0.1f) //左に動いている場合
+        {
+            spriteRenderer.sprite = moveLeftSprite_1;
+            spriteRenderer.sprite = moveLeftSprite_2;
+        }
+        else //止まっている場合
+        {
+            spriteRenderer.sprite = idleSprite_1;
+            spriteRenderer.sprite = idleSprite_2;
+        }
 
         //現在の速度(currentVelocity)を、目標の速度(targetVelocity)に滑らかに近づける
         currentVelocity = Vector3.Lerp(currentVelocity, targetVelocity, 1 - Mathf.Pow(moveSmoothing, Time.deltaTime));

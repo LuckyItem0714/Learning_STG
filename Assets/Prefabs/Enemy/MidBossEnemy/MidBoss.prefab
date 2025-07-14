@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 190167209169265036}
   - component: {fileID: 3767764344239692371}
   - component: {fileID: 7910567001981300029}
-  - component: {fileID: -9091001781980757153}
+  - component: {fileID: 9034779007339221756}
   m_Layer: 0
-  m_Name: NWayShooterEnemy
+  m_Name: MidBoss
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.06494441, y: -0.57162887, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -79,8 +79,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.9876151, g: 1, b: 0, a: 1}
+  m_Sprite: {fileID: -308587587415614221, guid: a166463ad9c44fe4e9ff797359b01caf, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -154,8 +154,8 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.28866667}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.53}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -163,11 +163,22 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0, y: 0.5773587}
-      - {x: -0.5, y: -0.28866667}
-      - {x: 0.5, y: -0.28866667}
+    - - {x: 0.16, y: 0.125}
+      - {x: 0.099999994, y: 0.114999995}
+      - {x: 0.14, y: 0.195}
+      - {x: 0.099999994, y: 0.265}
+      - {x: -0.11, y: 0.265}
+      - {x: -0.14, y: 0.155}
+      - {x: -0.16, y: 0.125}
+      - {x: -0.16, y: -0.074999996}
+      - {x: -0.14999999, y: -0.114999995}
+      - {x: -0.14, y: -0.195}
+      - {x: -0.11, y: -0.265}
+      - {x: 0.11, y: -0.265}
+      - {x: 0.14, y: -0.195}
+      - {x: 0.16, y: -0.125}
   m_UseDelaunayMesh: 0
---- !u!114 &-9091001781980757153
+--- !u!114 &9034779007339221756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -176,14 +187,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 614825664172090501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c9e9ed701a482647ad039de34134c49, type: 3}
+  m_Script: {fileID: 11500000, guid: 80b87b2fb15a5e94db8809dc658fc987, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  hp: 10
-  scoreValue: 10
-  explosionPrefab: {fileID: 6669791778644884500, guid: 1b8d7605dadaa4d49bd7d25d584d10e2, type: 3}
+  hp: 100
+  scoreValue: 50
+  explosionPrefab: {fileID: 2377593363162322766, guid: 1b8d7605dadaa4d49bd7d25d584d10e2, type: 3}
   bulletPrefab: {fileID: 6981558901318756519, guid: a3a0cca2d2f1b0d4aa18d05dd8799bbc, type: 3}
   fireRate: 1.5
-  numberOfBullets: 5
-  spreadAngle: 90
+  gameSettings: {fileID: 11400000, guid: 898553f5c86db32469b679b1320f5caf, type: 2}
+  horizontalSpeed: 2
+  patrolWidth: 5
+  bulletsPerBurst: 24
+  burstRotationSpeed: 5

@@ -1,0 +1,3497 @@
+fileFormatVersion: 2
+guid: d4d9565e9bedee8418c81f64c1448265
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5059327840028059499
+    second: kShot_0
+  - first:
+      213: 3033893719591817936
+    second: kShot_1
+  - first:
+      213: 3900745718932284587
+    second: kShot_2
+  - first:
+      213: -3721318767315837649
+    second: kShot_3
+  - first:
+      213: 8773692323492679842
+    second: kShot_4
+  - first:
+      213: -1194677193824123389
+    second: kShot_5
+  - first:
+      213: 8539060320478363131
+    second: kShot_6
+  - first:
+      213: 3503748078359906389
+    second: kShot_7
+  - first:
+      213: 2374124281581229970
+    second: kShot_8
+  - first:
+      213: -2223491001780289518
+    second: kShot_9
+  - first:
+      213: 2089446195217534364
+    second: kShot_10
+  - first:
+      213: -8738775599477050752
+    second: kShot_11
+  - first:
+      213: -8077769946562009148
+    second: kShot_12
+  - first:
+      213: 1963525181687121875
+    second: kShot_13
+  - first:
+      213: -1786204260517352166
+    second: kShot_14
+  - first:
+      213: -6436311403508827179
+    second: kShot_15
+  - first:
+      213: -3463229496386901708
+    second: kShot_16
+  - first:
+      213: 1117056559984798233
+    second: kShot_17
+  - first:
+      213: 4779250617562927480
+    second: kShot_18
+  - first:
+      213: -9046882832222328592
+    second: kShot_19
+  - first:
+      213: -5944279845865602576
+    second: kShot_20
+  - first:
+      213: -737602909384916849
+    second: kShot_21
+  - first:
+      213: -7631831717790587086
+    second: kShot_22
+  - first:
+      213: 995762105873038405
+    second: kShot_23
+  - first:
+      213: -7915319170754358774
+    second: kShot_24
+  - first:
+      213: 2477583566603060790
+    second: kShot_25
+  - first:
+      213: -5425175803199037095
+    second: kShot_26
+  - first:
+      213: -4406633595874757020
+    second: kShot_27
+  - first:
+      213: -1635717324643810260
+    second: kShot_28
+  - first:
+      213: 2335124050503015347
+    second: kShot_29
+  - first:
+      213: 3176590393801674093
+    second: kShot_30
+  - first:
+      213: -5058009806394900979
+    second: kShot_31
+  - first:
+      213: 4248252496804895211
+    second: kShot_32
+  - first:
+      213: -5940576272195529997
+    second: kShot_33
+  - first:
+      213: -4418502608950647357
+    second: kShot_34
+  - first:
+      213: 4651835695703020696
+    second: kShot_35
+  - first:
+      213: -8450829557884844692
+    second: kShot_36
+  - first:
+      213: 5340623669630686871
+    second: kShot_37
+  - first:
+      213: -2069621928259962704
+    second: kShot_38
+  - first:
+      213: 1527155909893248265
+    second: kShot_39
+  - first:
+      213: -268266001183060439
+    second: kShot_40
+  - first:
+      213: 3628555217303646842
+    second: kShot_41
+  - first:
+      213: -4824427471496083817
+    second: kShot_42
+  - first:
+      213: -2061250536910365668
+    second: kShot_43
+  - first:
+      213: -527111187444352966
+    second: kShot_44
+  - first:
+      213: 2204282554407960401
+    second: kShot_45
+  - first:
+      213: -2044326736630962009
+    second: kShot_46
+  - first:
+      213: -4073861038486011469
+    second: kShot_47
+  - first:
+      213: 6326067925310387126
+    second: kShot_48
+  - first:
+      213: 5539904869452503008
+    second: kShot_49
+  - first:
+      213: 5040779231296467587
+    second: kShot_50
+  - first:
+      213: 1102433501653849639
+    second: kShot_51
+  - first:
+      213: 710087040670354095
+    second: kShot_52
+  - first:
+      213: -5649336661528669886
+    second: kShot_53
+  - first:
+      213: -192278636889422408
+    second: kShot_54
+  - first:
+      213: 5602194452866147621
+    second: kShot_55
+  - first:
+      213: -2269946872942575592
+    second: kShot_56
+  - first:
+      213: 7472424247461208985
+    second: kShot_57
+  - first:
+      213: 2055043775127077741
+    second: kShot_58
+  - first:
+      213: 3920940229125697008
+    second: kShot_59
+  - first:
+      213: 8748701036765058337
+    second: kShot_60
+  - first:
+      213: 1774211945378954958
+    second: kShot_61
+  - first:
+      213: 82949596972868399
+    second: kShot_62
+  - first:
+      213: -3276264264812694985
+    second: kShot_63
+  - first:
+      213: -8446552037380242501
+    second: kShot_64
+  - first:
+      213: 6957973434422542771
+    second: kShot_65
+  - first:
+      213: -1970972012317827220
+    second: kShot_66
+  - first:
+      213: 1962235255234132963
+    second: kShot_67
+  - first:
+      213: -7231060228765116430
+    second: kShot_68
+  - first:
+      213: -6769807676418003024
+    second: kShot_69
+  - first:
+      213: -5762000843087541550
+    second: kShot_70
+  - first:
+      213: -964403100276610433
+    second: kShot_71
+  - first:
+      213: 2650656291676412119
+    second: kShot_72
+  - first:
+      213: 7284599142837395421
+    second: kShot_73
+  - first:
+      213: -6222872561764868163
+    second: kShot_74
+  - first:
+      213: -5288569283806199006
+    second: kShot_75
+  - first:
+      213: 2360638459466042491
+    second: kShot_76
+  - first:
+      213: 5084486688706481219
+    second: kShot_77
+  - first:
+      213: 7345713777319876730
+    second: kShot_78
+  - first:
+      213: -1036148653305086497
+    second: kShot_79
+  - first:
+      213: -6751167368580567335
+    second: kShot_80
+  - first:
+      213: -7293401496042463867
+    second: kShot_81
+  - first:
+      213: 7568087426211898020
+    second: kShot_82
+  - first:
+      213: 9170155580861233517
+    second: kShot_83
+  - first:
+      213: -8369414555439993122
+    second: kShot_84
+  - first:
+      213: -5355764490739929531
+    second: kShot_85
+  - first:
+      213: 39259129415575296
+    second: kShot_86
+  - first:
+      213: -727384585061684169
+    second: kShot_87
+  - first:
+      213: -5804510848856547647
+    second: kShot_88
+  - first:
+      213: -2512816648149210562
+    second: kShot_89
+  - first:
+      213: -3831570595140533898
+    second: kShot_90
+  - first:
+      213: 6001355807847623342
+    second: kShot_91
+  - first:
+      213: 6201978550746794715
+    second: kShot_92
+  - first:
+      213: -7937962557404450637
+    second: kShot_93
+  - first:
+      213: 332180051458251675
+    second: kShot_94
+  - first:
+      213: 2982034255241206644
+    second: kShot_95
+  - first:
+      213: 8056163392309610904
+    second: kShot_96
+  - first:
+      213: 154488855345760645
+    second: kShot_97
+  - first:
+      213: 6874269915472139218
+    second: kShot_98
+  - first:
+      213: -1438633425040299148
+    second: kShot_99
+  - first:
+      213: -6480368035178469920
+    second: kShot_100
+  - first:
+      213: 4849494091993562478
+    second: kShot_101
+  - first:
+      213: 2157190976608666267
+    second: kShot_102
+  - first:
+      213: -1877450078750497387
+    second: kShot_103
+  - first:
+      213: 72397371159537936
+    second: kShot_104
+  - first:
+      213: -192958154151710756
+    second: kShot_105
+  - first:
+      213: 5451113516242538104
+    second: kShot_106
+  - first:
+      213: 378560903158680488
+    second: kShot_107
+  - first:
+      213: 4410337741380755427
+    second: kShot_108
+  - first:
+      213: -3094107042916647286
+    second: kShot_109
+  - first:
+      213: -5439528114640791472
+    second: kShot_110
+  - first:
+      213: -1009325602196347180
+    second: kShot_111
+  - first:
+      213: 734708466599324119
+    second: kShot_112
+  - first:
+      213: 5356847393796873859
+    second: kShot_113
+  - first:
+      213: 8471832516284110430
+    second: kShot_114
+  - first:
+      213: 8607596369024318539
+    second: kShot_115
+  - first:
+      213: 9135494911862742992
+    second: kShot_116
+  - first:
+      213: -9198183177279606768
+    second: kShot_117
+  - first:
+      213: -8438109305687221173
+    second: kShot_118
+  - first:
+      213: 1702731014260652598
+    second: kShot_119
+  - first:
+      213: -4336252617220705189
+    second: kShot_120
+  - first:
+      213: 2571828512370884238
+    second: kShot_121
+  - first:
+      213: -8405646466221936276
+    second: kShot_122
+  - first:
+      213: -4780474357467916163
+    second: kShot_123
+  - first:
+      213: 6084921604435787043
+    second: kShot_124
+  - first:
+      213: 7436027205008824979
+    second: kShot_125
+  - first:
+      213: -7835713310106445831
+    second: kShot_126
+  - first:
+      213: -3385925060867496126
+    second: kShot_127
+  - first:
+      213: 5246860470287501798
+    second: kShot_128
+  - first:
+      213: 7248261293199773411
+    second: kShot_129
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kShot_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67ed137dd7563640800000000000000
+      internalID: 5059327840028059499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_1
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d21f82834e8a1a20800000000000000
+      internalID: 3033893719591817936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4a518709b322630800000000000000
+      internalID: 3900745718932284587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d152a2c483b5cc0800000000000000
+      internalID: -3721318767315837649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a05a56eeaa62c970800000000000000
+      internalID: 8773692323492679842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_5
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3064ad00c67ab6fe0800000000000000
+      internalID: -1194677193824123389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdfebd9e16d08670800000000000000
+      internalID: 8539060320478363131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55889194050df9030800000000000000
+      internalID: 3503748078359906389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_8
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2975748947592f020800000000000000
+      internalID: 2374124281581229970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_9
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210cb95e6b29421e0800000000000000
+      internalID: -2223491001780289518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_10
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d8b338e343ffc10800000000000000
+      internalID: 2089446195217534364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082b15d64e1a9b680800000000000000
+      internalID: -8738775599477050752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c768dd080ff5ef80800000000000000
+      internalID: -8077769946562009148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_13
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7cef1efb7df3b10800000000000000
+      internalID: 1963525181687121875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_14
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1de29350b02637e0800000000000000
+      internalID: -1786204260517352166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_15
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db7f0a21e0ada6a0800000000000000
+      internalID: -6436311403508827179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 439243c3f1320ffc0800000000000000
+      internalID: -3463229496386901708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_17
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae9ebd505908f00800000000000000
+      internalID: 1117056559984798233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_18
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87197687d1f435240800000000000000
+      internalID: 4779250617562927480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_19
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 474
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8eecc1ff3037280800000000000000
+      internalID: -9046882832222328592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1caad69fca18da0800000000000000
+      internalID: -5944279845865602576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_21
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8041d8df0283c5f0800000000000000
+      internalID: -737602909384916849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_22
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2376883ec79461690800000000000000
+      internalID: -7631831717790587086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_23
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c7b590c58a1dd00800000000000000
+      internalID: 995762105873038405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_24
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a02d85fb623272290800000000000000
+      internalID: -7915319170754358774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63688b48025226220800000000000000
+      internalID: 2477583566603060790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_26
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 951e64ec957e5b4b0800000000000000
+      internalID: -5425175803199037095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_27
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4663596871e78d2c0800000000000000
+      internalID: -4406633595874757020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_28
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2447a772c3cc49e0800000000000000
+      internalID: -1635717324643810260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_29
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 452
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb14b0b3f6086020800000000000000
+      internalID: 2335124050503015347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d87730224851c20800000000000000
+      internalID: 3176590393801674093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_31
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0eb36b21e65ec9b0800000000000000
+      internalID: -5058009806394900979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_32
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9d83c3323d4fa30800000000000000
+      internalID: 4248252496804895211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_33
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2dbaeda55de8da0800000000000000
+      internalID: -5940576272195529997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c52c5299435ea2c0800000000000000
+      internalID: -4418502608950647357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_35
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8945cd33be3ae8040800000000000000
+      internalID: 4651835695703020696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_36
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6507e0aa4f98ba80800000000000000
+      internalID: -8450829557884844692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79651638ee4bd1a40800000000000000
+      internalID: 5340623669630686871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8b4b252d93743e0800000000000000
+      internalID: -2069621928259962704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 431
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90553d5753c813510800000000000000
+      internalID: 1527155909893248265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e4b264e7de64cf0800000000000000
+      internalID: -268266001183060439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a723647ceb73b5230800000000000000
+      internalID: 3628555217303646842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79607dc86c03c0db0800000000000000
+      internalID: -4824427471496083817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1cdf52ce87f463e0800000000000000
+      internalID: -2061250536910365668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_44
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38be33fa235fa8f0800000000000000
+      internalID: -527111187444352966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_45
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fb310fd4f279e10800000000000000
+      internalID: 2204282554407960401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_46
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a827421aa711a3e0800000000000000
+      internalID: -2044326736630962009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_47
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1ccb048fcb677c0800000000000000
+      internalID: -4073861038486011469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_48
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b33e19d245bac750800000000000000
+      internalID: 6326067925310387126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 419
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e75c298022b1ec40800000000000000
+      internalID: 5539904869452503008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382b790f00274f540800000000000000
+      internalID: 5040779231296467587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7265196cd61ac4f00800000000000000
+      internalID: 1102433501653849639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faac3cab66cbad900800000000000000
+      internalID: 710087040670354095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_53
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2411ef0ec368991b0800000000000000
+      internalID: -5649336661528669886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_54
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b54f463993e45df0800000000000000
+      internalID: -192278636889422408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_55
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52520c55c2efebd40800000000000000
+      internalID: 5602194452866147621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_56
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 810cf3388578f70e0800000000000000
+      internalID: -2269946872942575592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_57
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993e0f0334263b760800000000000000
+      internalID: 7472424247461208985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_58
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63c356ec6bf48c10800000000000000
+      internalID: 2055043775127077741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_59
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 400
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd63964d5af96630800000000000000
+      internalID: 3920940229125697008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12519768d31a96970800000000000000
+      internalID: 8748701036765058337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_61
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece31983d544f9810800000000000000
+      internalID: 1774211945378954958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_62
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2364dd0832b62100800000000000000
+      internalID: 82949596972868399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_63
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7327881720f5882d0800000000000000
+      internalID: -3276264264812694985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_64
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3491b7ca1d7ca80800000000000000
+      internalID: -8446552037380242501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_65
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b14c5349ffaf8060800000000000000
+      internalID: 6957973434422542771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_66
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f1f8fb563b5a4e0800000000000000
+      internalID: -1970972012317827220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_67
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb7af971924b3b10800000000000000
+      internalID: 1962235255234132963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_68
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f71003a80d16ab90800000000000000
+      internalID: -7231060228765116430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_69
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 352
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf646949cfcc02a0800000000000000
+      internalID: -6769807676418003024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da0448f2c24900b0800000000000000
+      internalID: -5762000843087541550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_71
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a2abb6d70cd92f0800000000000000
+      internalID: -964403100276610433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_72
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8d60f7ad509c420800000000000000
+      internalID: 2650656291676412119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_73
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf10ff2358181560800000000000000
+      internalID: 7284599142837395421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_74
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbfda71106ae3a9a0800000000000000
+      internalID: -6222872561764868163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_75
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22380b4a14a3b96b0800000000000000
+      internalID: -5288569283806199006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_76
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c4993fb2ca2c020800000000000000
+      internalID: 2360638459466042491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_77
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c4d8164b9bf8640800000000000000
+      internalID: 5084486688706481219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7818ded2c731f560800000000000000
+      internalID: 7345713777319876730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_79
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 332
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd30412a4cde91f0800000000000000
+      internalID: -1036148653305086497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deeb882c090f42a0800000000000000
+      internalID: -6751167368580567335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_81
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58d16104bf1a8ca90800000000000000
+      internalID: -7293401496042463867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2e57caa6f370960800000000000000
+      internalID: 7568087426211898020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_83
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69bc4c4aefe24f70800000000000000
+      internalID: 9170155580861233517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_84
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edee30d0ecdd9db80800000000000000
+      internalID: -8369414555439993122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_85
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54eabcc52908ca5b0800000000000000
+      internalID: -5355764490739929531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_86
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 007a10f58f97b8000800000000000000
+      internalID: 39259129415575296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_87
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73cad40e29fc7e5f0800000000000000
+      internalID: -727384585061684169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_88
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce1107f22c327fa0800000000000000
+      internalID: -5804510848856547647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_89
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 300
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ae06d629ea02dd0800000000000000
+      internalID: -2512816648149210562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67101d028d683dac0800000000000000
+      internalID: -3831570595140533898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_91
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa2c798f49194350800000000000000
+      internalID: 6001355807847623342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_92
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdacad5e1aad11650800000000000000
+      internalID: 6201978550746794715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_93
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b07e857c11b6d190800000000000000
+      internalID: -7937962557404450637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_94
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bd3a03ff32c9400800000000000000
+      internalID: 332180051458251675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_95
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47bd2bb0b50526920800000000000000
+      internalID: 2982034255241206644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_96
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899ce130ced3dcf60800000000000000
+      internalID: 8056163392309610904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58904a0abcad42200800000000000000
+      internalID: 154488855345760645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_98
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d31fd11110566f50800000000000000
+      internalID: 6874269915472139218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_99
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 278
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b287aa582f80ce0800000000000000
+      internalID: -1438633425040299148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e524614b9b1116a0800000000000000
+      internalID: -6480368035178469920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_101
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6db1a5de2ddc4340800000000000000
+      internalID: 4849494091993562478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_102
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92007193c1efed10800000000000000
+      internalID: 2157190976608666267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_103
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5952c8cb915f1f5e0800000000000000
+      internalID: -1877450078750497387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_104
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019e2a68605310100800000000000000
+      internalID: 72397371159537936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_105
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfa545c499725df0800000000000000
+      internalID: -192958154151710756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_106
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e87fd9cde36ab40800000000000000
+      internalID: 5451113516242538104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_107
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abcf9eb22be04500800000000000000
+      internalID: 378560903158680488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_108
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef9f7e0fcaa43d30800000000000000
+      internalID: 4410337741380755427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_109
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 263
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e3be9a9068f05d0800000000000000
+      internalID: -3094107042916647286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058d515eff9e284b0800000000000000
+      internalID: -5439528114640791472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_111
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6216266b72ef1f0800000000000000
+      internalID: -1009325602196347180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_112
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9ef1d2575323a00800000000000000
+      internalID: 734708466599324119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_113
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e5d37a258575a40800000000000000
+      internalID: 5356847393796873859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_114
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d7b1b9cef19570800000000000000
+      internalID: 8471832516284110430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_115
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4cf2a9ea43547770800000000000000
+      internalID: 8607596369024318539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_116
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df97fc683cc7ce70800000000000000
+      internalID: 9135494911862742992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_117
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0107643622d795080800000000000000
+      internalID: -9198183177279606768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_118
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c58922b40d5ea80800000000000000
+      internalID: -8438109305687221173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_119
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 244
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63afb0506d051a710800000000000000
+      internalID: 1702731014260652598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54b336183982d3c0800000000000000
+      internalID: -4336252617220705189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_121
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e7617e768f0b320800000000000000
+      internalID: 2571828512370884238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_122
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61f251f215295b80800000000000000
+      internalID: -8405646466221936276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_123
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78d24166e758adb0800000000000000
+      internalID: -4780474357467916163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_124
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dbe7eb5fbf17450800000000000000
+      internalID: 6084921604435787043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_125
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a11be5853123760800000000000000
+      internalID: 7436027205008824979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_126
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f71e458244f14390800000000000000
+      internalID: -7835713310106445831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_127
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24766e6b817c201d0800000000000000
+      internalID: -3385925060867496126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_128
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e986857cc790d840800000000000000
+      internalID: 5246860470287501798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kShot_129
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 212
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eec2644e3ff69460800000000000000
+      internalID: 7248261293199773411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      kShot_0: 5059327840028059499
+      kShot_1: 3033893719591817936
+      kShot_10: 2089446195217534364
+      kShot_100: -6480368035178469920
+      kShot_101: 4849494091993562478
+      kShot_102: 2157190976608666267
+      kShot_103: -1877450078750497387
+      kShot_104: 72397371159537936
+      kShot_105: -192958154151710756
+      kShot_106: 5451113516242538104
+      kShot_107: 378560903158680488
+      kShot_108: 4410337741380755427
+      kShot_109: -3094107042916647286
+      kShot_11: -8738775599477050752
+      kShot_110: -5439528114640791472
+      kShot_111: -1009325602196347180
+      kShot_112: 734708466599324119
+      kShot_113: 5356847393796873859
+      kShot_114: 8471832516284110430
+      kShot_115: 8607596369024318539
+      kShot_116: 9135494911862742992
+      kShot_117: -9198183177279606768
+      kShot_118: -8438109305687221173
+      kShot_119: 1702731014260652598
+      kShot_12: -8077769946562009148
+      kShot_120: -4336252617220705189
+      kShot_121: 2571828512370884238
+      kShot_122: -8405646466221936276
+      kShot_123: -4780474357467916163
+      kShot_124: 6084921604435787043
+      kShot_125: 7436027205008824979
+      kShot_126: -7835713310106445831
+      kShot_127: -3385925060867496126
+      kShot_128: 5246860470287501798
+      kShot_129: 7248261293199773411
+      kShot_13: 1963525181687121875
+      kShot_14: -1786204260517352166
+      kShot_15: -6436311403508827179
+      kShot_16: -3463229496386901708
+      kShot_17: 1117056559984798233
+      kShot_18: 4779250617562927480
+      kShot_19: -9046882832222328592
+      kShot_2: 3900745718932284587
+      kShot_20: -5944279845865602576
+      kShot_21: -737602909384916849
+      kShot_22: -7631831717790587086
+      kShot_23: 995762105873038405
+      kShot_24: -7915319170754358774
+      kShot_25: 2477583566603060790
+      kShot_26: -5425175803199037095
+      kShot_27: -4406633595874757020
+      kShot_28: -1635717324643810260
+      kShot_29: 2335124050503015347
+      kShot_3: -3721318767315837649
+      kShot_30: 3176590393801674093
+      kShot_31: -5058009806394900979
+      kShot_32: 4248252496804895211
+      kShot_33: -5940576272195529997
+      kShot_34: -4418502608950647357
+      kShot_35: 4651835695703020696
+      kShot_36: -8450829557884844692
+      kShot_37: 5340623669630686871
+      kShot_38: -2069621928259962704
+      kShot_39: 1527155909893248265
+      kShot_4: 8773692323492679842
+      kShot_40: -268266001183060439
+      kShot_41: 3628555217303646842
+      kShot_42: -4824427471496083817
+      kShot_43: -2061250536910365668
+      kShot_44: -527111187444352966
+      kShot_45: 2204282554407960401
+      kShot_46: -2044326736630962009
+      kShot_47: -4073861038486011469
+      kShot_48: 6326067925310387126
+      kShot_49: 5539904869452503008
+      kShot_5: -1194677193824123389
+      kShot_50: 5040779231296467587
+      kShot_51: 1102433501653849639
+      kShot_52: 710087040670354095
+      kShot_53: -5649336661528669886
+      kShot_54: -192278636889422408
+      kShot_55: 5602194452866147621
+      kShot_56: -2269946872942575592
+      kShot_57: 7472424247461208985
+      kShot_58: 2055043775127077741
+      kShot_59: 3920940229125697008
+      kShot_6: 8539060320478363131
+      kShot_60: 8748701036765058337
+      kShot_61: 1774211945378954958
+      kShot_62: 82949596972868399
+      kShot_63: -3276264264812694985
+      kShot_64: -8446552037380242501
+      kShot_65: 6957973434422542771
+      kShot_66: -1970972012317827220
+      kShot_67: 1962235255234132963
+      kShot_68: -7231060228765116430
+      kShot_69: -6769807676418003024
+      kShot_7: 3503748078359906389
+      kShot_70: -5762000843087541550
+      kShot_71: -964403100276610433
+      kShot_72: 2650656291676412119
+      kShot_73: 7284599142837395421
+      kShot_74: -6222872561764868163
+      kShot_75: -5288569283806199006
+      kShot_76: 2360638459466042491
+      kShot_77: 5084486688706481219
+      kShot_78: 7345713777319876730
+      kShot_79: -1036148653305086497
+      kShot_8: 2374124281581229970
+      kShot_80: -6751167368580567335
+      kShot_81: -7293401496042463867
+      kShot_82: 7568087426211898020
+      kShot_83: 9170155580861233517
+      kShot_84: -8369414555439993122
+      kShot_85: -5355764490739929531
+      kShot_86: 39259129415575296
+      kShot_87: -727384585061684169
+      kShot_88: -5804510848856547647
+      kShot_89: -2512816648149210562
+      kShot_9: -2223491001780289518
+      kShot_90: -3831570595140533898
+      kShot_91: 6001355807847623342
+      kShot_92: 6201978550746794715
+      kShot_93: -7937962557404450637
+      kShot_94: 332180051458251675
+      kShot_95: 2982034255241206644
+      kShot_96: 8056163392309610904
+      kShot_97: 154488855345760645
+      kShot_98: 6874269915472139218
+      kShot_99: -1438633425040299148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

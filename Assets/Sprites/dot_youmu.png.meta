@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: c1cf62b56cde1b845bbf65bcb9b6e660
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5391905530415975159
+    second: dot_youmu_0
+  - first:
+      213: 6266134824935560403
+    second: dot_youmu_1
+  - first:
+      213: -1305777811054430578
+    second: dot_youmu_2
+  - first:
+      213: -4967490527662543723
+    second: dot_youmu_3
+  - first:
+      213: 4055759547430554686
+    second: dot_youmu_4
+  - first:
+      213: 839953937539947828
+    second: dot_youmu_5
+  - first:
+      213: -3272902677472329051
+    second: dot_youmu_6
+  - first:
+      213: -2480192313527011319
+    second: dot_youmu_7
+  - first:
+      213: -6911231650961231486
+    second: dot_youmu_8
+  - first:
+      213: 2531431305271253265
+    second: dot_youmu_9
+  - first:
+      213: 5534632886334243093
+    second: dot_youmu_10
+  - first:
+      213: 2195687209541701048
+    second: dot_youmu_11
+  - first:
+      213: 25107892567958845
+    second: dot_youmu_12
+  - first:
+      213: 7276745248964817114
+    second: dot_youmu_13
+  - first:
+      213: -1047300296549363948
+    second: dot_youmu_14
+  - first:
+      213: -4356825800630276503
+    second: dot_youmu_15
+  - first:
+      213: -8161251913663978769
+    second: dot_youmu_16
+  - first:
+      213: -6872128050801944567
+    second: dot_youmu_17
+  - first:
+      213: -2231098440393067068
+    second: dot_youmu_18
+  - first:
+      213: -9214876202665302681
+    second: dot_youmu_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dot_youmu_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 417
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa88ea2385e3da40800000000000000
+      internalID: 5391905530415975159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 417
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d41df28c68c5f650800000000000000
+      internalID: 6266134824935560403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_2
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 417
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e867388cff1f0ede0800000000000000
+      internalID: -1305777811054430578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_3
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 417
+        width: 41
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59c6e891fadef0bb0800000000000000
+      internalID: -4967490527662543723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 417
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c4ffee1d3f84830800000000000000
+      internalID: 4055759547430554686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_5
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 417
+        width: 75
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d52cae7ad18ab00800000000000000
+      internalID: 839953937539947828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 289
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a246dcfa505492d0800000000000000
+      internalID: -3272902677472329051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 289
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90871914b36949dd0800000000000000
+      internalID: -2480192313527011319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_8
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 289
+        width: 33
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 281f4044e6f5610a0800000000000000
+      internalID: -6911231650961231486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_9
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 289
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1191ffb2c53712320800000000000000
+      internalID: 2531431305271253265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_10
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 289
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511c5205947fecc40800000000000000
+      internalID: 5534632886334243093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_11
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 289
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd0a9242e5a87e10800000000000000
+      internalID: 2195687209541701048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 161
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d356299ce73395000800000000000000
+      internalID: 25107892567958845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_13
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 161
+        width: 42
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad03f8500413cf460800000000000000
+      internalID: 7276745248964817114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_14
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 161
+        width: 42
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f830bdded3771f0800000000000000
+      internalID: -1047300296549363948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_15
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 161
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96eec2d84027983c0800000000000000
+      internalID: -4356825800630276503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_16
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 158
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2e49bef986dbe80800000000000000
+      internalID: -8161251913663978769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_17
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 33
+        width: 43
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908d3f8a2fb41a0a0800000000000000
+      internalID: -6872128050801944567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_18
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 33
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c571711acb8901e0800000000000000
+      internalID: -2231098440393067068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_youmu_19
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 33
+        width: 39
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7652fea8aee2e1080800000000000000
+      internalID: -9214876202665302681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dot_youmu_0: 5391905530415975159
+      dot_youmu_1: 6266134824935560403
+      dot_youmu_10: 5534632886334243093
+      dot_youmu_11: 2195687209541701048
+      dot_youmu_12: 25107892567958845
+      dot_youmu_13: 7276745248964817114
+      dot_youmu_14: -1047300296549363948
+      dot_youmu_15: -4356825800630276503
+      dot_youmu_16: -8161251913663978769
+      dot_youmu_17: -6872128050801944567
+      dot_youmu_18: -2231098440393067068
+      dot_youmu_19: -9214876202665302681
+      dot_youmu_2: -1305777811054430578
+      dot_youmu_3: -4967490527662543723
+      dot_youmu_4: 4055759547430554686
+      dot_youmu_5: 839953937539947828
+      dot_youmu_6: -3272902677472329051
+      dot_youmu_7: -2480192313527011319
+      dot_youmu_8: -6911231650961231486
+      dot_youmu_9: 2531431305271253265
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

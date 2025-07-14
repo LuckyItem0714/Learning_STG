@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: d40de13441341c24b8c198e65fa455a8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7524911072703097098
+    second: dot_yousei_0
+  - first:
+      213: -909583494624786874
+    second: dot_yousei_1
+  - first:
+      213: 5581754486567713560
+    second: dot_yousei_2
+  - first:
+      213: -8937886286504441236
+    second: dot_yousei_3
+  - first:
+      213: -4622985474579767120
+    second: dot_yousei_4
+  - first:
+      213: -7996590630985603101
+    second: dot_yousei_5
+  - first:
+      213: 7136463640407491493
+    second: dot_yousei_6
+  - first:
+      213: 7190553692191252038
+    second: dot_yousei_7
+  - first:
+      213: 9093760458332381128
+    second: dot_yousei_8
+  - first:
+      213: -3219607838671938162
+    second: dot_yousei_9
+  - first:
+      213: -8746827634205515123
+    second: dot_yousei_10
+  - first:
+      213: -7262721614296712922
+    second: dot_yousei_11
+  - first:
+      213: -3963205898208126676
+    second: dot_yousei_12
+  - first:
+      213: 7648942963701642448
+    second: dot_yousei_13
+  - first:
+      213: 3287181686131335520
+    second: dot_yousei_14
+  - first:
+      213: 6895726357135164892
+    second: dot_yousei_15
+  - first:
+      213: -3922512231189033097
+    second: dot_yousei_16
+  - first:
+      213: 8467422980792056357
+    second: dot_yousei_17
+  - first:
+      213: -2347541164432905468
+    second: dot_yousei_18
+  - first:
+      213: -7334981299532629751
+    second: dot_yousei_19
+  - first:
+      213: 2984815301885939697
+    second: dot_yousei_20
+  - first:
+      213: 1793292906321619547
+    second: dot_yousei_21
+  - first:
+      213: -3146468888790424921
+    second: dot_yousei_22
+  - first:
+      213: -148662373058377686
+    second: dot_yousei_23
+  - first:
+      213: -9134372402612858445
+    second: dot_yousei_24
+  - first:
+      213: -6643243381225575693
+    second: dot_yousei_25
+  - first:
+      213: -4444776503948657688
+    second: dot_yousei_26
+  - first:
+      213: -6164418072459066379
+    second: dot_yousei_27
+  - first:
+      213: 8340220541481687910
+    second: dot_yousei_28
+  - first:
+      213: 1514116152595254281
+    second: dot_yousei_29
+  - first:
+      213: -3140679724454100149
+    second: dot_yousei_30
+  - first:
+      213: 3550796153306972146
+    second: dot_yousei_31
+  - first:
+      213: -5440843935650515217
+    second: dot_yousei_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dot_yousei_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 227
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6d0218f35229790800000000000000
+      internalID: -7524911072703097098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 227
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646c45d71a28063f0800000000000000
+      internalID: -909583494624786874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 227
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81bbf43d120667d40800000000000000
+      internalID: 5581754486567713560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_3
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 195
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a411207cf36f380800000000000000
+      internalID: -8937886286504441236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 195
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0e1e9543bd7dfb0800000000000000
+      internalID: -4622985474579767120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 195
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e7e2e95037660190800000000000000
+      internalID: -7996590630985603101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_6
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 195
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3cafecedfc90360800000000000000
+      internalID: 7136463640407491493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 195
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ede616c7af9c360800000000000000
+      internalID: 7190553692191252038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 195
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf156fb4f6833e70800000000000000
+      internalID: 9093760458332381128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 195
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d55eb9ab7a153d0800000000000000
+      internalID: -3219607838671938162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_10
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 195
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d822c9ffb960d9680800000000000000
+      internalID: -8746827634205515123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 163
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629fa4ddb21a53b90800000000000000
+      internalID: -7262721614296712922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 163
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c295299cb3ddff8c0800000000000000
+      internalID: -3963205898208126676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_13
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 163
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4f8a28911862a60800000000000000
+      internalID: 7648942963701642448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 131
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061270ac35a6e9d20800000000000000
+      internalID: 3287181686131335520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_15
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 131
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd50751369a82bf50800000000000000
+      internalID: 6895726357135164892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_16
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 131
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f4ad878ef6099c0800000000000000
+      internalID: -3922512231189033097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 131
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52af615b654528570800000000000000
+      internalID: 8467422980792056357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_18
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 131
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bae5eafbbdb6fd0800000000000000
+      internalID: -2347541164432905468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_19
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 131
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9097937de59e43a90800000000000000
+      internalID: -7334981299532629751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_20
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 131
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ffcf0de3b13c6920800000000000000
+      internalID: 2984815301885939697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_21
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 131
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a2783a56e03e810800000000000000
+      internalID: 1793292906321619547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_22
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 99
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a224d2673f7554d0800000000000000
+      internalID: -3146468888790424921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_23
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 99
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28836efb58dfedf0800000000000000
+      internalID: -148662373058377686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 99
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1112022b03c3180800000000000000
+      internalID: -9134372402612858445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faa59997557ec3a0800000000000000
+      internalID: -6643243381225575693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_26
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 67
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb3320b15bf052c0800000000000000
+      internalID: -4444776503948657688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_27
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 67
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f344107c66937aa0800000000000000
+      internalID: -6164418072459066379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 67
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b9e63e46a6eb370800000000000000
+      internalID: 8340220541481687910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_29
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 67
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c0f106e98330510800000000000000
+      internalID: 1514116152595254281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_30
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 67
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4344ae3e601a64d0800000000000000
+      internalID: -3140679724454100149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_31
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 67
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff7fabd946f64130800000000000000
+      internalID: 3550796153306972146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_yousei_32
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 67
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe67631744d3e74b0800000000000000
+      internalID: -5440843935650515217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dot_yousei_0: -7524911072703097098
+      dot_yousei_1: -909583494624786874
+      dot_yousei_10: -8746827634205515123
+      dot_yousei_11: -7262721614296712922
+      dot_yousei_12: -3963205898208126676
+      dot_yousei_13: 7648942963701642448
+      dot_yousei_14: 3287181686131335520
+      dot_yousei_15: 6895726357135164892
+      dot_yousei_16: -3922512231189033097
+      dot_yousei_17: 8467422980792056357
+      dot_yousei_18: -2347541164432905468
+      dot_yousei_19: -7334981299532629751
+      dot_yousei_2: 5581754486567713560
+      dot_yousei_20: 2984815301885939697
+      dot_yousei_21: 1793292906321619547
+      dot_yousei_22: -3146468888790424921
+      dot_yousei_23: -148662373058377686
+      dot_yousei_24: -9134372402612858445
+      dot_yousei_25: -6643243381225575693
+      dot_yousei_26: -4444776503948657688
+      dot_yousei_27: -6164418072459066379
+      dot_yousei_28: 8340220541481687910
+      dot_yousei_29: 1514116152595254281
+      dot_yousei_3: -8937886286504441236
+      dot_yousei_30: -3140679724454100149
+      dot_yousei_31: 3550796153306972146
+      dot_yousei_32: -5440843935650515217
+      dot_yousei_4: -4622985474579767120
+      dot_yousei_5: -7996590630985603101
+      dot_yousei_6: 7136463640407491493
+      dot_yousei_7: 7190553692191252038
+      dot_yousei_8: 9093760458332381128
+      dot_yousei_9: -3219607838671938162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

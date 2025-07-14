@@ -1,0 +1,837 @@
+fileFormatVersion: 2
+guid: a166463ad9c44fe4e9ff797359b01caf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6536476653702496862
+    second: dot_cirno_0
+  - first:
+      213: -308587587415614221
+    second: dot_cirno_1
+  - first:
+      213: -3149707002844974160
+    second: dot_cirno_2
+  - first:
+      213: -7655040780606831043
+    second: dot_cirno_3
+  - first:
+      213: -2849567162720049142
+    second: dot_cirno_4
+  - first:
+      213: -6012780107043169553
+    second: dot_cirno_5
+  - first:
+      213: -5788304114830583104
+    second: dot_cirno_6
+  - first:
+      213: -7644923233533847316
+    second: dot_cirno_7
+  - first:
+      213: -4349432932533827166
+    second: dot_cirno_8
+  - first:
+      213: -3550960946605607429
+    second: dot_cirno_9
+  - first:
+      213: 7434355113053045041
+    second: dot_cirno_10
+  - first:
+      213: 4373478096276956394
+    second: dot_cirno_11
+  - first:
+      213: -925878575898311860
+    second: dot_cirno_12
+  - first:
+      213: 7977805397686006353
+    second: dot_cirno_13
+  - first:
+      213: 6650424768612329317
+    second: dot_cirno_14
+  - first:
+      213: 5240947690536765436
+    second: dot_cirno_15
+  - first:
+      213: -9026722074768430617
+    second: dot_cirno_16
+  - first:
+      213: 5188730339162745264
+    second: dot_cirno_17
+  - first:
+      213: 6841444924088419616
+    second: dot_cirno_18
+  - first:
+      213: 3695862297274689341
+    second: dot_cirno_19
+  - first:
+      213: -8373816088719388610
+    second: dot_cirno_20
+  - first:
+      213: -4607371657913805605
+    second: dot_cirno_21
+  - first:
+      213: -8347942608549073521
+    second: dot_cirno_22
+  - first:
+      213: 5472184673822455798
+    second: dot_cirno_23
+  - first:
+      213: -2666497549968250508
+    second: dot_cirno_24
+  - first:
+      213: -2704198778400283226
+    second: dot_cirno_25
+  - first:
+      213: -4943161629437094248
+    second: dot_cirno_26
+  - first:
+      213: -3077244295527030101
+    second: dot_cirno_27
+  - first:
+      213: 3417605656401087676
+    second: dot_cirno_28
+  - first:
+      213: -5891574405594901209
+    second: dot_cirno_29
+  - first:
+      213: 6726891815928130639
+    second: dot_cirno_30
+  - first:
+      213: -8072870859260301740
+    second: dot_cirno_31
+  - first:
+      213: 2603961096949290266
+    second: dot_cirno_32
+  - first:
+      213: 6185857671082715321
+    second: dot_cirno_33
+  - first:
+      213: -6782337125051968337
+    second: dot_cirno_34
+  - first:
+      213: 4403383940243832227
+    second: dot_cirno_35
+  - first:
+      213: -3364361365179405015
+    second: dot_cirno_36
+  - first:
+      213: 6031835962573397438
+    second: dot_cirno_37
+  - first:
+      213: -5981553430522304096
+    second: dot_cirno_38
+  - first:
+      213: -4784945253897835113
+    second: dot_cirno_39
+  - first:
+      213: -1535278498527449902
+    second: dot_cirno_40
+  - first:
+      213: 1264183078196454450
+    second: dot_cirno_41
+  - first:
+      213: -4590645147390810154
+    second: dot_cirno_42
+  - first:
+      213: -3665726863136466861
+    second: dot_cirno_43
+  - first:
+      213: -5247294318982984067
+    second: dot_cirno_44
+  - first:
+      213: -4718914272008955659
+    second: dot_cirno_45
+  - first:
+      213: 8572061390816234868
+    second: dot_cirno_46
+  - first:
+      213: -420050310885721296
+    second: dot_cirno_47
+  - first:
+      213: 3793216075740227295
+    second: dot_cirno_48
+  - first:
+      213: -3312701098165351681
+    second: dot_cirno_49
+  - first:
+      213: -1765928793445833985
+    second: dot_cirno_50
+  - first:
+      213: -248013985780099143
+    second: dot_cirno_51
+  - first:
+      213: -5864338830582404121
+    second: dot_cirno_52
+  - first:
+      213: -8841119073152079389
+    second: dot_cirno_53
+  - first:
+      213: 615770786931136484
+    second: dot_cirno_54
+  - first:
+      213: -8986925141491616605
+    second: dot_cirno_55
+  - first:
+      213: 5836857691823997881
+    second: dot_cirno_56
+  - first:
+      213: -6828036273049945046
+    second: dot_cirno_57
+  - first:
+      213: -1098244272644192874
+    second: dot_cirno_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dot_cirno_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 419
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc5ff5693da7bbf0800000000000000
+      internalID: -308587587415614221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 419
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08247e53cd4478d0800000000000000
+      internalID: -2849567162720049142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_8
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 419
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a98fe9cac5b3a3c0800000000000000
+      internalID: -4349432932533827166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 419
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131c2af16922c2760800000000000000
+      internalID: 7434355113053045041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_13
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 419
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152b440bdbbd6be60800000000000000
+      internalID: 7977805397686006353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_16
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 419
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9204f3914aab280800000000000000
+      internalID: -9026722074768430617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_19
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 419
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3721d78d275a4330800000000000000
+      internalID: 3695862297274689341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_23
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 291
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7368cc7fa11fb40800000000000000
+      internalID: 5472184673822455798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_28
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 291
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc072cbc36cd6f20800000000000000
+      internalID: 3417605656401087676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_32
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 291
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15599042d0232420800000000000000
+      internalID: 2603961096949290266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_34
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 291
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa45552b15c40e1a0800000000000000
+      internalID: -6782337125051968337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_35
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 291
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adb4ef0d56fb1d30800000000000000
+      internalID: 4403383940243832227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_38
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 291
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9e2b8b8d04dfca0800000000000000
+      internalID: -5981553430522304096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_39
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 291
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d6abfa4a5789db0800000000000000
+      internalID: -4784945253897835113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 163
+        width: 32
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234a5facfc74b8110800000000000000
+      internalID: 1264183078196454450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 163
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358d42ff6d8b02dc0800000000000000
+      internalID: -3665726863136466861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_46
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 163
+        width: 37
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d41701b6416f670800000000000000
+      internalID: 8572061390816234868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_49
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 163
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffacec417ebe602d0800000000000000
+      internalID: -3312701098165351681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_52
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 163
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb2b9877eead9ea0800000000000000
+      internalID: -5864338830582404121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_54
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 163
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7d71aa448ab8800800000000000000
+      internalID: 615770786931136484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_56
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 35
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b30dad452fa00150800000000000000
+      internalID: 5836857691823997881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dot_cirno_57
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 35
+        width: 38
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c3067af21fd31a0800000000000000
+      internalID: -6828036273049945046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 356bc4d10f8d7ea4c9802a07f59edaa4
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dot_cirno_0: 6536476653702496862
+      dot_cirno_1: -308587587415614221
+      dot_cirno_10: 7434355113053045041
+      dot_cirno_11: 4373478096276956394
+      dot_cirno_12: -925878575898311860
+      dot_cirno_13: 7977805397686006353
+      dot_cirno_14: 6650424768612329317
+      dot_cirno_15: 5240947690536765436
+      dot_cirno_16: -9026722074768430617
+      dot_cirno_17: 5188730339162745264
+      dot_cirno_18: 6841444924088419616
+      dot_cirno_19: 3695862297274689341
+      dot_cirno_2: -3149707002844974160
+      dot_cirno_20: -8373816088719388610
+      dot_cirno_21: -4607371657913805605
+      dot_cirno_22: -8347942608549073521
+      dot_cirno_23: 5472184673822455798
+      dot_cirno_24: -2666497549968250508
+      dot_cirno_25: -2704198778400283226
+      dot_cirno_26: -4943161629437094248
+      dot_cirno_27: -3077244295527030101
+      dot_cirno_28: 3417605656401087676
+      dot_cirno_29: -5891574405594901209
+      dot_cirno_3: -7655040780606831043
+      dot_cirno_30: 6726891815928130639
+      dot_cirno_31: -8072870859260301740
+      dot_cirno_32: 2603961096949290266
+      dot_cirno_33: 6185857671082715321
+      dot_cirno_34: -6782337125051968337
+      dot_cirno_35: 4403383940243832227
+      dot_cirno_36: -3364361365179405015
+      dot_cirno_37: 6031835962573397438
+      dot_cirno_38: -5981553430522304096
+      dot_cirno_39: -4784945253897835113
+      dot_cirno_4: -2849567162720049142
+      dot_cirno_40: -1535278498527449902
+      dot_cirno_41: 1264183078196454450
+      dot_cirno_42: -4590645147390810154
+      dot_cirno_43: -3665726863136466861
+      dot_cirno_44: -5247294318982984067
+      dot_cirno_45: -4718914272008955659
+      dot_cirno_46: 8572061390816234868
+      dot_cirno_47: -420050310885721296
+      dot_cirno_48: 3793216075740227295
+      dot_cirno_49: -3312701098165351681
+      dot_cirno_5: -6012780107043169553
+      dot_cirno_50: -1765928793445833985
+      dot_cirno_51: -248013985780099143
+      dot_cirno_52: -5864338830582404121
+      dot_cirno_53: -8841119073152079389
+      dot_cirno_54: 615770786931136484
+      dot_cirno_55: -8986925141491616605
+      dot_cirno_56: 5836857691823997881
+      dot_cirno_57: -6828036273049945046
+      dot_cirno_58: -1098244272644192874
+      dot_cirno_6: -5788304114830583104
+      dot_cirno_7: -7644923233533847316
+      dot_cirno_8: -4349432932533827166
+      dot_cirno_9: -3550960946605607429
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
