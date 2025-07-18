@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a1ecd739280dcb409b3bf61a3517dcb, type: 3}
-  m_Name: FinalBossAppearanceEvent
+  m_Name: Susanoo
   m_EditorClassIdentifier: 
   eventType: 2
-  enemyPrefab: {fileID: 5545616428552124613, guid: 05ab1b51b6aeaec46934d9e1f9b17b13, type: 3}
+  enemyPrefab: {fileID: 5545616428552124613, guid: 5bc812de05b798545baa3f087a88c769, type: 3}
   enemyCount: 1
   spawnPosition: {x: 0, y: 2, z: 0}
   spawnInterval: 0.5

@@ -15,6 +15,7 @@ public abstract class BaseBoss : MonoBehaviour
     [Header("無敵設定")]
     public float spawnInvincibilityDuration = 1.0f; //登場の無敵時間
     protected bool isInvincible = false;
+    public float invincibilityDuration = 2f; //無敵時間(秒)
 
     [Header("攻撃設定")]
     public GameObject bulletPrefab; //ボスが撃つ弾のプレハブ
@@ -93,6 +94,17 @@ public abstract class BaseBoss : MonoBehaviour
     //プレイヤーの弾に当たった時の処理
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (isInvincible)
+        {
+            return; //この先の処理を何もせずに関数を抜ける
+        }
+
+        HandleCollision(other);
+    }
+
+    //衝突処理を担当する、上書き可能なメソッド
+    protected virtual void HandleCollision(Collider2D other)
+    {
         if (other.CompareTag("Bullet") || other.CompareTag("BombBullet"))
         {
             //弾からダメージ量を取得して、TakeDamageメソッドを呼び出す
@@ -110,7 +122,20 @@ public abstract class BaseBoss : MonoBehaviour
     private IEnumerator SpawnInvincibilityCoroutine()
     {
         isInvincible = true; //無敵モードON
-        yield return new WaitForSeconds(spawnInvincibilityDuration); //指定された秒数だけ待機
+
+        //点滅処理
+        SpriteRenderer sr = GetComponent<SpriteRenderer>();
+        float blinkInterval = 0.1f; //点滅の間隔
+        float invincibilityTimer = invincibilityDuration;
+
+        while (invincibilityTimer > 0)
+        {
+            sr.enabled = !sr.enabled; //表示・非表示を切り替える
+            invincibilityTimer -= blinkInterval;
+            yield return new WaitForSeconds(blinkInterval);
+        }
+
+        sr.enabled = true; //確実に表示状態に戻す
         isInvincible = false; //無敵モードOFF
     }
 

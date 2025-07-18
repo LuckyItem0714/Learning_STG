@@ -342,6 +342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnEvents:
+  - {fileID: 11400000, guid: ba6a638e910abe24691053760db01fb4, type: 2}
   - {fileID: 11400000, guid: 491eff6bf3be28e41881c0f8bb40aeda, type: 2}
   - {fileID: 11400000, guid: ed45b8338da47834690ba7c3b968044a, type: 2}
   - {fileID: 11400000, guid: 041bd2da227b29d4986c75d9ebd6d0f3, type: 2}
